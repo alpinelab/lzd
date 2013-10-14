@@ -1,0 +1,221 @@
+/*
+Theme Name: Minimum
+Theme URI: http://demo.qodeinteractive.com/minimum/
+Description: Minimum Theme
+Tags: ajax, animation, architecture, clean, corporate, creative, elegant, grey, interactive, minimal, modern, parallax, photography, portfolio, professional
+Author: Qode Interactive
+Author URI: http://www.qodeinteractive.com/
+Version: 2.2.1
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+*/
+
+/*
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+
+Changelog
+
+2.2.1
+- Revolution Slider updated to version 3.0.93
+- Fixed testimonial css
+- Fixed magic panes positioning bug
+- Fixed contact page when recaptcha is enabled
+
+2.2
+- Improved parallax for touch devices
+- Added support for adding pagination to page content
+- Added functions.php to child theme
+- Updated Revolution Slider to version 3.0.5
+- Updated translation files
+- Fixed ajax transition bug on IE8
+- Fixed Contact form "from" value
+- Fixed second level portfolio filter menu on last two sizes
+- Fixed Search form submit url
+
+2.1.1
+- Improved AJAX animations between pages to work with without '#'
+- Updated Revolution Slider to version 3.0.2
+- Fixed flexslider in blog full width post
+- Fixed flexslider link target
+- Fixed portfolio filter layout on last two sizes
+- Fixed portfolio filter on last two sizes
+
+2.1
+- Added Google fonts Latin Extended subset
+- Added Brazillian portuguese translation files
+- Improved load performance
+- Updated translation files
+- Fixed left arrow hover on revolution slider
+- Fixed closing menu on touch devices
+- Fixed video responsiveness
+
+2.0.9
+- Revolution Slider updated to version 2.3.91
+- Updated portfolio single to open web site links using options in new window
+- Fixed separator on blog comments
+- Fixed placeholder to not show placeholder text when input is empty
+- Fixed logo image url if SSL is set
+
+2.0.8
+- Select menu (main menu on last two sizes) replaced with stylish one 
+- Fixed "dummy" links when you click on them from shop pages 
+- Fixed shopping cart link css on last two responsive sizes
+
+2.0.7
+- Removed small line below title of carousel slider
+- Qode > Portfolio Single > Portfolio style select box updated
+- Fixed CSS for social icons shortcode when placed in footer slider
+- Fixed notice Yoast SEO was reporting
+- Fixed Parallax speed bug when ajax is on
+- Fixed Custom WooCommerce Page sidebar
+- Translation files updated
+
+2.0.6
+- Added sidebar to shop page
+- Updated cart icon to display on all pages if there are products added to cart
+- Updated some Woo Commerce elements style
+
+2.0.5
+- Added Hide Website Field (for contact form) in Qode options
+- Fixed custom css and qode options css load/display delay
+- Fixed woocommerce product variations select boxes layout
+- Translation file updated
+
+2.0.4
+- Added latest products shortcode
+- Added cart icon with number of products added to cart and total amount to shop pages
+- Fixed bug with select box on product detail page when product variations are used
+
+2.0.3
+- Updated Service shortcode to allow link
+- Updated Social shortcode to open link in new tab/window
+- Fixed center header logo bug on last 2 sizes (responsive layout)
+- Fixed hover state bug on main menu when loaded page is not in the menu
+
+2.0.2
+- Updated portfolio list shortcode to allow showing selected projects
+- Added option to center header logo
+- Fixed contact form ie8 bug
+- Fixed responsive bug in blog page in FF
+
+2.0.1
+- Theme fixes and optimization for iPad
+- Touch devices parallax fix
+- Header height on last two sizes fix
+- Cross-Browser testing and fixes
+
+2.0
+- Added Woo Commerce 2 integration
+- Added Disable Qode SEO field to Qode options
+- Fixed bug with video on portfolio single, when tamplate with slider is used
+- Fixed Send Message button color bug
+
+1.1.8
+- Added Portfolio Style 5 template for single portfolio which shows portfolio images one below other in full width
+- Added Google Analytics field to Qode options
+- Renamed Porftolio titles and links to Previous, Next, About (without Project word after)
+- Fixed Highlight shorcode bug when placing from shortcode menu in text editor
+- Fixed Tabs bug
+- Portfolio bottom separator color bug fixed
+- Translation files updated
+
+1.1.7
+- Added Hide footer logo in Qode options
+- Fix for small slider when there is less then 3/4 slides, on last two sizes of responsive layout
+- Dropdown move down menu separator fix in IE
+- Translation files updated
+
+1.1.6
+- Link style color fix
+- Added margin on P tag in Qode options
+- Separator color added (border color of input[type="text"] and textarea will take "Separator" color, since they are same color already)
+- Blog template 5 issue for blog list in Qode options fixed
+- Blog pagination rendering fix
+- Portfolio single template 1, image rendering fix
+- Font-size option on drop down menu fix
+- Global font-family option fixed
+
+1.1.5
+- Removed min-height from flexslider on last two sizes (responsive layout)
+- Added option to set font options for each menu level
+- Added option to set color and height for magic pane boxes (hover and active state on first level menu)
+- Translation file updated
+
+1.1.4
+- Added Blog Template 5 which displays whole post in the list
+- Added global setting to hide main menu
+- Added global setting to hide blog comments
+- Added blog post setting to hide featured image
+- Hide slider arrows when all slides fit in the page (3 or 4)
+- Fixed position center main menu responsive bug
+- Carousel slider bugs fixed
+- Archive title fixed
+
+1.1.3
+- List of Google fonts updated
+- Added Portfolio Style 4 (should be used for parallax) to Portoflio single view field
+- Added child theme support
+- Placing Dropcaps shortcode from toolbar bug fixed
+- Google fonts field in Qode Global Options bug fixed
+- Removed obsolete content_line_remover div
+
+1.1.2
+- Comment posting message fix
+- Link style - font decoration in qode options fix
+- H2 color change on blog templates fix
+- Header logo top margin on last 2 sizes of responsive layout
+- Edit button in wordpress toolbar (when viewing site) when ajax is enabled fix
+
+1.1.1
+- Contact form fix
+- Header fix on last two sizes
+- Demo content updated with Revolution slider example
+
+1.1
+- Added Revolution Slider WP plugin with full width support
+- Added option to parallax shortcode for on/off "back to top" arrow
+- Post comments via ajax
+- Added "List of internal URLs loaded without AJAX" field to Qode option to prevent AJAX on some links (for example forum)
+- Fixed counters for small sliders
+- 404 page layout Fixed
+- Translation file updated
+- Documentation updated to reflect all latest changes
+
+1.0.8
+- Fixed Video on Portfolio page bug
+- Fixed Portfolio Filter css
+- Tranlsation file updated
+- Fixed Bug when installing theme on WordPress with existing content
+- Added Shortcode for displaying Latest Blog posts with 2 different layout options (Blog Layout and Portfolio Layout) 
+- Fixed Tabs on tablets
+- Improved Portfolio List Shortcode to allow displaying items of chosen category (add category slug to category field of shortcodes)
+(This improvement allows creation of multiple portfolio list pages)
+
+1.0.7
+- Added video support to portfolios (you can add either image or video, image has priority over video)
+- Portfolio shortcode updated to allow filtering by sub-categories (children of top categories)
+- Fixed issue found in WordPress toolbar (when viewing site) when Ajax is enabled
+
+1.0.6
+- Added pattern image (examples on toolbar), you can add transparent pattern image to combine with background color
+- Turn on/off responsiveness
+- Turn off ajax for certain pages (important for some plugins to work)
+- Translation problem fixed
+- Contact form localized
+
+1.0.5
+- Added Back, Next & Previous buttons to project (portfolio item) page
+- Parallax fixed for last 2 responsive sizes
+- Cancel Reply button is stylized now
+- jQuery inclusion moved from footer to header
+- Layout of sliders are fixed for last 2 responsive sizes: text is shown, buttons are moved to bottom right corner
+- Re-order of slides, Parallax pages, Portfolio images & Portfolio Option items is implemented
+- Header Right widget is implemnted, needed to add social icons to the header
+- Back to Top button is Added for Parallax pages
+
+1.0.1 & 1.0.2 & 1.0.3 & 1.0.4
+- ThemeForest approval issues
+
+*/

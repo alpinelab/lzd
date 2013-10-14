@@ -1,0 +1,7 @@
+input{
+	line-height: 40px;
+}
+
+form.variations_form table tbody tr td select{
+	background-color: #cccccc;
+}

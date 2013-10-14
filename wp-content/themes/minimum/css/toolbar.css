@@ -1,0 +1,97 @@
+#panel {
+	position: fixed;
+	top: 74px;
+	z-index: 9999;
+}
+#panel-admin {
+	float: left;
+	width: 227px;
+	padding: 20px 5px 0px 5px;
+	background: #252525;
+	color: #ffffff;
+	z-index: 9999;
+	position: relative;
+}
+
+#panel-admin > div{
+	margin: 0px 0px 20px 0px;
+}
+
+#panel-admin div.width50{
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+#panel-admin .colorSelector{
+	top: 9px;
+}
+
+#panel-admin h4{
+	color: #ffffff;
+	padding: 0px 10px;
+	
+}
+
+#panel-admin p{
+	margin: 0px 0px 10px 0px;
+	color: #ffffff;
+	padding: 0px 10px;
+}
+
+#panel-admin input{
+	margin: 0px;
+	width: auto;
+	height: auto;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+#panel-admin input:focus{
+	background-color: transparent;
+}
+
+#panel-admin label{
+	font-size: 14px;
+}
+
+#panel-admin span{
+	font-size: 12px;
+	font-style: italic;
+	display: block;
+	position: relative;
+	padding: 5px 5px 10px 10px;
+	float: left;
+}
+
+.open{
+	background-image: url('../img/options_open_close.png');
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	display: block;
+	height: 38px;
+	width: 38px;
+	float: right;
+	margin: 0px 0px 0px 1px;
+	z-index: 1000;
+	position: relative;
+}
+
+.open.opened{
+	background-position: 0px -39px;
+}
+
+#panel-admin select, #panel-admin select:focus {
+	width: 100%;
+	padding: 3px;
+	margin: 2px 0 15px 0;	
+	font-size: 12px;
+	border: none;
+	background-color: #fff;
+}
+
+.colorPanel{
+	display: none;
+	top: 25px;
+	position: absolute;
+}

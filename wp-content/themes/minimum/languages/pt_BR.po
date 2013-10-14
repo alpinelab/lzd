@@ -1,0 +1,1350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: minimum pt_BR\n"
+"POT-Creation-Date: 2013-04-10 11:57+0100\n"
+"PO-Revision-Date: 2013-05-09 18:12-0300\n"
+"Last-Translator: \n"
+"Language-Team: Gabriel Bourg <gabriel@gabrielbourg.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;__;_e;_n\n"
+"X-Poedit-Basepath: ..\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: d:\\projects\\htdocs_wp\\wp-content\\themes\\minimum\n"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:24
+msgid "Archive"
+msgstr "Arquivo"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:31
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:26
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:26
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:26
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:26
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template5.php:26
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:15
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:23
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:756
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:25
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:16
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/page.php:14
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:16
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:18
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce-custom-page.php:19
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce.php:33
+msgid "View your shopping cart"
+msgstr "Ver seu carrinho de compras"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:32
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:27
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:27
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:27
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:27
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template5.php:27
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:16
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:24
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:758
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:26
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:17
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/page.php:15
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:17
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:19
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce-custom-page.php:20
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce.php:34
+#, php-format
+msgid "%d item"
+msgstr ""
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:72
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:125
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:168
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:213
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:261
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:310
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:363
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:410
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:459
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:507
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:565
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:614
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:654
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:699
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:743
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:67
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:115
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:172
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:78
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:130
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:192
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:78
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:138
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:206
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:78
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:137
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:205
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template5.php:75
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:56
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:109
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:151
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:196
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:245
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:294
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:347
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:394
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:443
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:492
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:550
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:603
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:650
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:699
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:747
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:67
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:121
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:163
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:208
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:257
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:306
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:360
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:407
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:456
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:505
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:562
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:616
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:663
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:712
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:761
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:58
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:112
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:154
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:199
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:248
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:296
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:350
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:397
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:446
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:495
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:552
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:606
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:653
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:702
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:751
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:59
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:112
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:154
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:197
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:245
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:294
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:347
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:394
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:443
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:491
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:549
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:602
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:649
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:698
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:746
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:1029
+msgid "READ MORE"
+msgstr "LEIA MAIS"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:74
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:124
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:162
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:207
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:248
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:312
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:362
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:404
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:453
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:494
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:567
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:613
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:648
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:693
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:730
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:69
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:117
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:174
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:77
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:129
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:191
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:72
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:132
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:200
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:72
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:131
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:199
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template5.php:62
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:58
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:108
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:145
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:190
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:232
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:296
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:346
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:388
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:437
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:479
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:552
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:602
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:644
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:693
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:734
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:69
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:120
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:157
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:202
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:244
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:308
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:359
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:401
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:450
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:492
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:564
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:615
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:657
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:706
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:748
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:60
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:111
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:148
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:193
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:235
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:298
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:349
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:391
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:440
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:482
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:554
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:605
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:647
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:696
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:738
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:61
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:111
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:148
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:191
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:232
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:296
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:346
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:388
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:437
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:478
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:551
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:601
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:643
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:692
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:733
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:55
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:117
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:189
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:999
+msgid "Posted by"
+msgstr "Por"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:74
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:124
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:162
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:207
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:248
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:312
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:362
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:404
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:453
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:494
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:567
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:613
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:648
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:693
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:730
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:69
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:117
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:174
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:77
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:129
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:191
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:72
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:132
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:200
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:72
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:131
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:199
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template5.php:62
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:58
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:108
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:145
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:190
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:232
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:296
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:346
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:388
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:437
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:479
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:552
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:602
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:644
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:693
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:734
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:69
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:120
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:157
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:202
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:244
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:308
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:359
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:401
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:450
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:492
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:564
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:615
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:657
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:706
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:748
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:60
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:111
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:148
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:193
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:235
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:298
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:349
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:391
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:440
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:482
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:554
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:605
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:647
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:696
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:738
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:61
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:111
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:148
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:191
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:232
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:296
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:346
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:388
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:437
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:478
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:551
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:601
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:643
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:692
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:733
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:55
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:117
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:189
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:999
+msgid "in"
+msgstr "em"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:75
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:125
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:167
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:212
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:261
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:313
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:363
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:409
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:458
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:507
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:568
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:614
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:653
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:698
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:743
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:70
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:118
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:175
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:78
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:130
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:192
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:77
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:137
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:205
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:77
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:136
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:204
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template5.php:75
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:59
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:109
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:150
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:195
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:245
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:297
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:347
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:393
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:442
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:492
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:553
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:603
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:649
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:698
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:747
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:70
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:121
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:162
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:207
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:257
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:309
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:360
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:406
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:455
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:505
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:565
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:616
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:662
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:711
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:761
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:61
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:112
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:153
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:198
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:248
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:299
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:350
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:396
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:445
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:495
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:555
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:606
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:652
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:701
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:751
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:62
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:112
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:153
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:196
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:245
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:297
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:347
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:393
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:442
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:491
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:552
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:602
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:648
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:697
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:746
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:65
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:127
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:199
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:1018
+msgid "no comments"
+msgstr "sem comentários"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:75
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:125
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:167
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:212
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:261
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:313
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:363
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:409
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:458
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:507
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:568
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:614
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:653
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:698
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:743
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:70
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:118
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:175
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:78
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:130
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:192
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:77
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:137
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:205
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:77
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:136
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:204
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template5.php:75
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:59
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:109
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:150
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:195
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:245
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:297
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:347
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:393
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:442
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:492
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:553
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:603
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:649
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:698
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:747
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/comments.php:45
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:70
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:121
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:162
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:207
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:257
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:309
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:360
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:406
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:455
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:505
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:565
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:616
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:662
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:711
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:761
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:61
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:112
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:153
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:198
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:248
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:299
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:350
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:396
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:445
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:495
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:555
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:606
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:652
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:701
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:751
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:62
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:112
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:153
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:196
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:245
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:297
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:347
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:393
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:442
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:491
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:552
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:602
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:648
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:697
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:746
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:65
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:127
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:199
+msgid "comment"
+msgstr "comentário"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:75
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:125
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:167
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:212
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:261
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:313
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:363
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:409
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:458
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:507
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:568
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:614
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:653
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:698
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:743
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:70
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:118
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:175
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:78
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:130
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:192
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:77
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:137
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:205
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:77
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:136
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:204
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template5.php:75
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:59
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:109
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:150
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:195
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:245
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:297
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:347
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:393
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:442
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:492
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:553
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:603
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:649
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:698
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:747
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:70
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:121
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:162
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:207
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:257
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:309
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:360
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:406
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:455
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:505
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:565
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:616
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:662
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:711
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:761
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:61
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:112
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:153
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:198
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:248
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:299
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:350
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:396
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:445
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:495
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:555
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:606
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:652
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:701
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:751
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:62
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:112
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:153
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:196
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:245
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:297
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:347
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:393
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:442
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:491
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:552
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:602
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:648
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:697
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:746
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:65
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:127
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single.php:199
+msgid "comments"
+msgstr "comentários"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:86
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:135
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:178
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:223
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:270
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:324
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:372
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:420
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:469
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:516
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/archive.php:752
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:81
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:129
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template1.php:186
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:87
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:139
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template2.php:201
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:90
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:150
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template3.php:218
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:90
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:149
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template4.php:217
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/blog-template5.php:84
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:70
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:118
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:161
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:206
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:254
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:308
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:356
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:404
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:453
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:501
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:564
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:612
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:660
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:709
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/category.php:756
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:81
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:130
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:173
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:218
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:266
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:320
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:369
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:417
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:466
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:514
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:576
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:625
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:673
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:722
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/home.php:770
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:72
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:121
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:164
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:209
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:257
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:310
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:359
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:407
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:456
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:504
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:566
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:615
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:663
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:712
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/index.php:760
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:73
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:121
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:164
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:207
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:254
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:308
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:356
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:404
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:453
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:500
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:563
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:611
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:659
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:708
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:755
+msgid "No posts were found."
+msgstr "Pots não encontrados."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/comments.php:3
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "Esse post é restrito. Entre sua senha para ver os comentários."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/comments.php:27
+msgid "Sorry, the comment form is closed at this time."
+msgstr "Desculpe, os comentários estão desabilitados."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/comments.php:41
+msgid "Post a comment"
+msgstr "Deixe seu comentário"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/comments.php:42
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Deixe uma resposta para %s"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/comments.php:43
+msgid "Cancel Reply"
+msgstr "Cancelar Resposta"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/comments.php:44
+msgid "Post Comment"
+msgstr "Postar Comentário"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/comments.php:49
+msgid "name"
+msgstr "nome"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/comments.php:50
+msgid "website"
+msgstr "site"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/comments.php:51
+msgid "email"
+msgstr "email"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:54
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:117
+msgid "Contact Form"
+msgstr "Formulário de Contato"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:56
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:119
+msgid "Your Full Name *"
+msgstr "Nome Completo *"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:57
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:120
+msgid "Email *"
+msgstr "Email"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:61
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:124
+msgid "Web site"
+msgstr "Site"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:63
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:126
+msgid "Message"
+msgstr "Mensagem"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:98
+msgid "Send Message"
+msgstr "Enviar Mensagem"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:188
+msgid " Required"
+msgstr "Requerido"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:200
+msgid " Invalid"
+msgstr "Inválido"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:234
+msgid "THANK YOU!"
+msgstr "OBRIGADO!"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:234
+msgid ""
+"Your email was successfully sent. We will contact you as soon as possible."
+msgstr ""
+"Seu email foi enviado com sucesso. Entraremos em contato assim que possível."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:246
+msgid "Invalid Captcha"
+msgstr "Captcha Inválido"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/contact-page.php:255
+msgid "Email server problem"
+msgstr "Problema no servidor de email"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:209
+msgid "Top Navigation"
+msgstr "Navegação Topo"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:258
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:393
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:118
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:211
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:303
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:396
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:489
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:580
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:591
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:681
+msgid "Portfolio"
+msgstr "Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:394
+msgid "Portfolio Item"
+msgstr "Item Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:395
+msgid "New Portfolio Item"
+msgstr "Novo Item Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:396
+msgid "Add New Portfolio Item"
+msgstr "Adicionar Novo Item Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:397
+msgid "Edit Portfolio Item"
+msgstr "Editar Item Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:419
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:429
+msgid "Portfolio Categories"
+msgstr "Categorias Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:420
+msgid "Portfolio Category"
+msgstr "Categoria Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:421
+msgid "Search Portfolio Categories"
+msgstr "Procurar Categorias Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:422
+msgid "All Portfolio Categories"
+msgstr "Todas as Categorias Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:423
+msgid "Parent Portfolio Category"
+msgstr "Parente Categoria Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:424
+msgid "Parent Portfolio Category:"
+msgstr "Parente Categoria Portifólio:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:425
+msgid "Edit Portfolio Category"
+msgstr "Editar Categoria Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:426
+msgid "Update Portfolio Category"
+msgstr "Atualizar Categoria Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:427
+msgid "Add New Portfolio Category"
+msgstr "Inserir Nova Categoria Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:428
+msgid "New Portfolio Category Name"
+msgstr "Novo Nome Categoria Portifólio"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:658
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr "Instale os Plugins Necessários"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:659
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr "Instale os Plugins"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:660
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalando Plugin: %s"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:661
+msgid "Something went wrong with the plugin API."
+msgstr "Erro com o Plugin API."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:672
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:178
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr "Retornar para a Instalação dos Plugins Necessários"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:673
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:179
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr "Plugins ativados com sucesso."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/functions.php:674
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Todos os plugins instalados e ativados com sucesso. %s"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/search.php:19
+msgid "Search for:"
+msgstr "Procurar por:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:109
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:202
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:295
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:387
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:480
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:572
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:673
+msgid "About"
+msgstr "Sobre"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:116
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:209
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:301
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:394
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:487
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:578
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:589
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:679
+msgid "Previous"
+msgstr "Anterior"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:120
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:213
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:305
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:398
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:491
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:582
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:593
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/single-portfolio_page.php:683
+msgid "Next"
+msgstr "Próximo"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr "Alguma coisa deu errado."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos os plugins instalados e ativados com sucesso.  %1$s"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:517
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr "Retornar para a Dashboard"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr "Os plugin foi ativado com sucesso: %s."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr "Dispensar este aviso"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr "Link Externo"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr "Repositório Privado"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr "Pre-Embutido"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr "Repositório Wordpress"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr "Requerido"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr "Não Instalado"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr "Instalado mas não ativado"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"Sem plugins para instalar ou ativar. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr "Plugin"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr "Fonte"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr "Tipo"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr "Status"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr "Instalar"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr "Ativar"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1544
+msgid "The following plugin was activated successfully:"
+msgstr "O seguinte plugin foi ativado com sucesso."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr "Pacote de Instalação indisponível."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Baixando Pacote de Instalação de <span class=\"code\">%s</span>&#8230;"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr "Dezipando o Arquivo&#8230;"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr "Instalando o Plugin&#8230;"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr "falha na Instalação do Plugin."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr "Plugin Instalado com sucesso."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr "Falha na ativação do Plugin."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Instalação e Ativação em andamento. Este processo pode ser um pouco demorado "
+"em alguns servidores, seja paciente."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado e ativado com sucesso."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1956
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr "Mostrar Detalhes"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1956
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr "Esconder Detalhes"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr "Todas as Instalações e Ativações foram completadas."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando e Ativando Plugin %1$s (%2$d/%3$d)"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Instalação e Ativação em andamento. Este processo pode ser um pouco demorado "
+"em alguns servidores, seja paciente."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Erro na Instalação %1$s: <strong>%2$s</strong>."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "A Instalação do %1$s falhou."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado com sucesso."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr "Todas as instalações foram concluidas."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando Plugin %1$s (%2$d/%3$d)"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/qode-options.php:292
+#, php-format
+msgid "version %1$s"
+msgstr "versão %1$s"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:535
+msgid "Filter"
+msgstr "Filtro"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:537
+msgid "All"
+msgstr "Todos"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:605
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:1052
+msgid "View"
+msgstr "Exibir"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:610
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:1037
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:1057
+msgid "Sorry, no posts matched your criteria."
+msgstr "Desculpe, nenhum post encontrado."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:707
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:801
+msgid "Read"
+msgstr "Leia"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:1020
+msgid " comments"
+msgstr " comentários"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:1022
+msgid "one comment"
+msgstr "um comentário"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/includes/shortcodes.php:1025
+msgid "Comments are off for this post."
+msgstr "Comentários estão desabilitados para este post."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/js/default_dynamic.php:175
+msgid "Comment has been sent!"
+msgstr "Comentário enviado!"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/widgets/relate_posts_widget.php:8
+msgid "Related Posts Widget"
+msgstr "Widget Posts relacionados"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/widgets/relate_posts_widget.php:15
+msgid "Related Posts"
+msgstr "Posts Relacionados"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/widgets/relate_posts_widget.php:75
+msgid "Title:"
+msgstr "Título:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/widgets/relate_posts_widget.php:79
+msgid "Number of posts:"
+msgstr "Número de Posts:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/cart/cart-empty.php:14
+msgid "Your cart is currently empty."
+msgstr "Seu carrinho está vazio."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/cart/cart-empty.php:18
+msgid "&larr; Return To Shop"
+msgstr "&larr; Retornar a Loja"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/checkout/thankyou.php:18
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+"Infelizmente seu pedido não pode ser processado devido a recusa no modo de "
+"pagamento pela sua operdora de cartão/banco."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr "Por Favor, tente comprar novamente ou vá para a página da sua conta."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr "Por favor tente realizar sua compra novamente."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/checkout/thankyou.php:28
+msgid "Pay"
+msgstr "Pagar"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/checkout/thankyou.php:30
+msgid "My Account"
+msgstr "Minha Conta"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/checkout/thankyou.php:36
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/checkout/thankyou.php:67
+msgid "Thank you. Your order has been received."
+msgstr "Obrigado! Seu pedido foi recebido."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/checkout/thankyou.php:40
+msgid "Order:"
+msgstr "Pedido:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/checkout/thankyou.php:44
+msgid "Date:"
+msgstr "Data:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/checkout/thankyou.php:48
+msgid "Total:"
+msgstr "Total:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/checkout/thankyou.php:53
+msgid "Payment method:"
+msgstr "Pagamento:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-edit-address.php:27
+msgid "Billing Address"
+msgstr "Endereço de Cobrança:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-edit-address.php:27
+msgid "Shipping Address"
+msgstr "Endereço para Entrega:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-edit-address.php:43
+msgid "Save Address"
+msgstr "Salvar Endereço"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-login.php:26
+msgid "I'm a Returning Customer"
+msgstr "Já sou Cliente"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-login.php:29
+msgid "Username or email"
+msgstr "Usuário ou Email"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-login.php:33
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-login.php:85
+msgid "Password"
+msgstr "Senha"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-login.php:40
+msgid "Login"
+msgstr "Login"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-login.php:50
+msgid "Lost Password?"
+msgstr "Esqueceu sua senha?"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-login.php:60
+msgid "I'm a New Customer"
+msgstr "Sou um novo Cliente"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-login.php:66
+msgid "Username"
+msgstr "Usuário"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-login.php:78
+msgid "Email"
+msgstr "Email"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-login.php:89
+msgid "Re-enter password"
+msgstr "Redigite sua Senha"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-login.php:101
+msgid "Register"
+msgstr "Registrar"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Esqueceu sua Senha? Entre com seu usuário ou endereço de email. Você "
+"receberá um link via email para criar uma nova senha."
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-lost-password.php:24
+msgid "Username or email:"
+msgstr "Usuário ou Email:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr "Digite sua nova senha:"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-lost-password.php:31
+msgid "New password"
+msgstr "Nova Senha"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-lost-password.php:35
+msgid "Re-enter new password"
+msgstr "redigite sua senha"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-lost-password.php:45
+msgid "Reset Password"
+msgstr "Resetar Senha"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/form-lost-password.php:45
+msgid "Save"
+msgstr "Salvar"
+
+#: d:\projects\htdocs_wp\wp-content\themes\minimum/woocommerce/myaccount/my-account.php:20
+#, php-format
+msgid ""
+"Hello, <strong>%s</strong>. From your account dashboard you can view your "
+"recent orders, manage your shipping and billing addresses and <a href=\"%s"
+"\">change your password</a>."
+msgstr ""
+"Olá, <strong>%s</strong>. Na Dashboard você pode ver suas compras recentes, "
+"mudar seus dados e <a href=\"%s\">alterar a sua senha</a>."

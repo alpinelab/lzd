@@ -1,0 +1,12 @@
+.two_columns_50_50 .column_left,
+.two_columns_50_50 .column_right{
+	width: 49.99%;
+}
+
+input{
+	line-height: 40px;
+}
+
+form.variations_form table tbody tr td select{
+	background-color: #cccccc;
+}
