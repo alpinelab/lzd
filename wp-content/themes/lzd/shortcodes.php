@@ -824,6 +824,11 @@ function slider($atts, $content = null) {
 }
 add_shortcode('slider', 'slider');
 
+function hello_world($atts, $content = null)
+{
+	return "hello world";
+}
+add_shortcode('hello','hello_world');
 
 if (!function_exists('parallax')) {
 function parallax($atts, $content = null) {
