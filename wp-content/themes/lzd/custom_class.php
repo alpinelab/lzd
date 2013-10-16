@@ -720,7 +720,10 @@ while (isset($portfolio_images[$no-1])) {
 		?>
 
 <?php
-$array_field = array('Titre', 'Chapeau', 'Texte', 'Distributions', 'Mentions', 'Revue de presse');
+if (get_post_type( get_the_ID() ) == 'residence')
+	$array_field = array('Titre', 'Chapeau', 'Texte', 'Distributions', 'Revue de presse');
+else
+	$array_field = array('Titre', 'Chapeau', 'Texte', 'Distributions', 'Mentions', 'Revue de presse');
 $i = 0;
 foreach ($array_field as $result)
 {
