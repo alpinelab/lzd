@@ -1,5 +1,6 @@
 <?php 
-class UneClassJustePourQueCaMarche
+
+class myCustomFields
 {
 		/**
 		* @var  string  $prefix  The prefix for storing custom fields in the postmeta table
@@ -8,7 +9,7 @@ class UneClassJustePourQueCaMarche
 		/**
 		* @var  array  $postTypes  An array of public custom post types, plus the standard "post" and "page" - add the custom types you want to include here
 		*/
-		var $postTypes = array( "page", "post", "portfolio_page" );
+		var $postTypes = array( "page", "post","portfolio_page", "spectacle", "residence");
 		/**
 		* @var  array  $customFields  Defines the custom fields available
 		*/
@@ -19,7 +20,7 @@ class UneClassJustePourQueCaMarche
 				"title"			=> "Don't show page title",
 				"description"	=> "",
 				"type"			=> "checkbox",
-				"scope"			=>	array("page","post","portfolio_page"),
+				"scope"			=>	array("page","post","portfolio_page", "spectacle", "residence"),
 				"capability"	=> "manage_options"
 			),
 			array(
@@ -27,7 +28,7 @@ class UneClassJustePourQueCaMarche
 				"title"			=> "Page Subtitle",
 				"description"	=> "",
 				"type"			=> "text",
-				"scope"			=>	array("page","post","portfolio_page"),
+				"scope"			=>	array("page","post","portfolio_page", "spectacle", "residence"),
 				"capability"	=> "manage_options"
 			),
 			array(
@@ -59,7 +60,7 @@ class UneClassJustePourQueCaMarche
 				"title"			=> "Choose animation",
 				"description"	=> "",
 				"type"			=> "selectbox-animation",
-				"scope"			=>	array("page","post","portfolio_page"),
+				"scope"			=>	array("page","post","portfolio_page", "spectacle", "residence"),
 				"capability"	=> "manage_options"
 			),
 			array(
@@ -83,7 +84,7 @@ class UneClassJustePourQueCaMarche
 				"title"			=> "Choose portfolio single view",
 				"description"	=> "",
 				"type"			=> "selectbox-portfolio-single",
-				"scope"			=>	array("portfolio_page"),
+				"scope"			=>	array("portfolio_page", "spectacle"),
 				"capability"	=> "manage_options"
 			),
 			array(
@@ -91,7 +92,7 @@ class UneClassJustePourQueCaMarche
 				"title"			=> "Choose portfolio back link",
 				"description"	=> "",
 				"type"			=> "selectbox-portfolio-list-page",
-				"scope"			=>	array("portfolio_page"),
+				"scope"			=>	array("portfolio_page", "spectacle"),
 				"capability"	=> "manage_options"
 			),
 			array(
@@ -99,7 +100,7 @@ class UneClassJustePourQueCaMarche
 				"title"			=> "Enter revolution slider shortcode",
 				"description"	=> "",
 				"type"			=> "text",
-				"scope"			=>	array("page","post","portfolio_page"),
+				"scope"			=>	array("page","post","portfolio_page", "spectacle"),
 				"capability"	=> "manage_options"
 			),
 		);
@@ -611,12 +612,13 @@ while (isset($parallaxes[$no-1])) {
 		}
 		
 		function displayCustomPortfolio() {
+
 			global $post;
 			?>
 			<div class="form-wrap">
 					<div class="hidden_portfolio_images">
 						<div class="input form-field">
-							<label><b>Order number</b></label>
+							<label><b>Ordre</b></label>
 							<input class="ordernumber" type="text" id="portfolioimgordernumber_x" name="portfolioimgordernumber_x" size="10" />
 						</div>
 						<div class="input form-field">
@@ -625,7 +627,7 @@ while (isset($parallaxes[$no-1])) {
 							<input class="upload_button" type="button" value="Upload file">
 						</div>
 						<div class="input form-field">
-							<label for=""><b>Video type</b></label>
+							<label for=""><b>Type de vidéo</b></label>
 							<select name="portfoliovideotype_x" id="portfoliovideotype_x">
 								<option value=""></option>
 								<option value="youtube">Youtube</option>
@@ -633,7 +635,7 @@ while (isset($parallaxes[$no-1])) {
 							</select>
 						</div>
 						<div class="input form-field">
-							<label for=""><b>Video ID</b></label>
+							<label for=""><b>Id de la vidéo</b></label>
 							<input type="text" name="portfoliovideoid_x" id="portfoliovideoid_x" class="portfoliovideoid" />
 						</div>
 					</div>
@@ -659,7 +661,7 @@ while (isset($parallaxes[$no-1])) {
 					</div>
 					
 <div class="add_portfolio_images">
-<h3>Portfolio images/videos</h3>
+<h3>images/vidéos</h3>
 <div class="add_portfolio_images_inner">
 <?php
 $no = 1;
@@ -673,7 +675,7 @@ while (isset($portfolio_images[$no-1])) {
 				
 <div class="portfolio_image" rel="<?php echo $no; ?>" style="display: block;">
 <div class="input form-field">
-<label for="portfolioimgordernumber_<?php echo $no; ?>"><b>Order number</b></label>
+<label for="portfolioimgordernumber_<?php echo $no; ?>"><b>Ordre</b></label>
 <input id="portfolioimgordernumber_<?php echo $no; ?>" type="text" name="portfolioimgordernumber[]" value="<?php echo isset($portfolio_image['portfolioimgordernumber'])?stripslashes($portfolio_image['portfolioimgordernumber']):""; ?>" class="ordernumber" />
 </div>
 <div class="input form-field">
@@ -682,7 +684,7 @@ while (isset($portfolio_images[$no-1])) {
 <input class="upload_button" type="button" value="Upload file">
 </div>
 <div class="input form-field">
-	<label for="portfoliovideotype_<?php echo $no; ?>"><b>Video type</b></label>
+	<label for="portfoliovideotype_<?php echo $no; ?>"><b>Type de vidéo</b></label>
 	<select name="portfoliovideotype[]" id="portfoliovideotype_<?php echo $no; ?>">
 		<option value=""></option>
 		<option <?php if(isset($portfolio_image['portfoliovideotype'])){ if($portfolio_image['portfoliovideotype'] == "youtube") echo "selected='selected'"; } ?> value="youtube">Youtube</option>
@@ -690,10 +692,10 @@ while (isset($portfolio_images[$no-1])) {
 	</select>
 </div>
 <div class="input form-field">
-<label for="portfoliovideoid_<?php echo $no; ?>"><b>Video ID</b></label>
+<label for="portfoliovideoid_<?php echo $no; ?>"><b>Id de la vidéo</b></label>
 <input id="portfoliovideoid_<?php echo $no; ?>" type="text" name="portfoliovideoid[]" value="<?php echo isset($portfolio_image['portfoliovideoid'])?stripslashes($portfolio_image['portfoliovideoid']):""; ?>" class="portfoliovideoid" />
 </div>
-<a class="remove_image" href="/" onclick="javascript: return false;">Remove portfolio image/video</a>
+<a class="remove_image" href="/" onclick="javascript: return false;">Enlever une image/video</a>
 </div>
 
 					
@@ -702,11 +704,11 @@ while (isset($portfolio_images[$no-1])) {
 	$no++;
 }
 ?>
-				<a class="add_image" onclick="javascript: return false;" href="/" >Add portfolio image/video</a>
+				<a class="add_image" onclick="javascript: return false;" href="/" >Ajouter une image/vidéo</a>
 </div>
 </div>
 <div class="add_portfolios">
-	<h3>Editer le portfolio_page</h3>
+	<h3>Editer le spectacle</h3>
 	<div class="add_portfolios_inner">
 		<?php
 		$no = 1;
@@ -754,6 +756,7 @@ $portfolio_date = get_post_meta( $post->ID, $this->prefix . 'portfolio_date', tr
 		* Save the new Custom Fields values
 		*/
 		function saveCustomFields( $post_id, $post ) {
+			//echo '<script type="text/javascript">alert(\'ok\');</script>';
 			if ( !isset( $_POST[ 'my-custom-fields_wpnonce' ] ) || !wp_verify_nonce( $_POST[ 'my-custom-fields_wpnonce' ], 'my-custom-fields' ) )
 				return;
 			if ( !current_user_can( 'edit_post', $post_id ) )
@@ -883,4 +886,7 @@ $portfolio_date = get_post_meta( $post->ID, $this->prefix . 'portfolio_date', tr
 		}
 		
 
+}
+if ( class_exists('myCustomFields') ) {
+	$myCustomFields_var = new myCustomFields();
 }

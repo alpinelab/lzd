@@ -525,95 +525,98 @@ add_shortcode('action', 'action');
 
 /* Portfolio shortcode */
 
-if (!function_exists('portfolio_list')) {
-function portfolio_list($atts, $content = null) {
-	$html = "";
-	extract(shortcode_atts(array("columns" => "3", "number"=>"-1", "filter"=>'no', "category"=>"", "selected_projects"=>""), $atts));
-	
-	if($filter == "yes"){
-		$html .= "<div class='filter'>
-						<span>". __('Filter','qode') ." &nbsp;&nbsp;&nbsp;></span>
-						<ul>
-						<li><a data-filter='*' href='#'>". __('All','qode') ."</a></li>";
-				if ($category == "") {
-					$args = array(
-						'parent'  => 0
-					);
-					$portfolio_categories = get_terms( 'portfolio_category',$args);
-				} else {
-					$top_category = get_term_by('slug',$category,'portfolio_category');
-					$term_id = '';
-					if (isset($top_category->term_id)) $term_id = $top_category->term_id;
-					$args = array(
-						'parent'  => $term_id
-					);
-					$portfolio_categories = get_terms( 'portfolio_category',$args);
-				}
-				foreach($portfolio_categories as $portfolio_category) {
-					$html .=	"<li><a data-filter='.$portfolio_category->slug' href='#'>$portfolio_category->name</a>";
-					$args = array(
-						'child_of' => $portfolio_category->term_id
-					);
-					$portfolio_categories2 = get_terms( 'portfolio_category',$args);
-					
-					if(count($portfolio_categories2) > 0){
-						$html .= '<ul>';
-						foreach($portfolio_categories2 as $portfolio_category2) {
-							$html .=	"<li><a data-filter='.$portfolio_category2->slug' href='#'>$portfolio_category2->name</a></li>";
-						}
-						$html .= '</ul>';
+if (!function_exists('portfolio_list')) 
+{
+	function portfolio_list($atts, $content = null) 
+	{
+
+		$html = "";
+		extract(shortcode_atts(array("columns" => "3", "number"=>"-1", "filter"=>'no', "category"=>"", "selected_projects"=>""), $atts));
+		if($filter == "yes"){
+			$html .= "<div class='filter'>
+							<span>". __('Filter','qode') ." &nbsp;&nbsp;&nbsp;></span>
+							<ul>
+							<li><a data-filter='*' href='#'>". __('All','qode') ."</a></li>";
+					if ($category == "") {
+						$args = array(
+							'parent'  => 0
+						);
+						$portfolio_categories = get_terms( 'portfolio_category',$args);
+					} else {
+						$top_category = get_term_by('slug',$category,'portfolio_category');
+						$term_id = '';
+						if (isset($top_category->term_id)) $term_id = $top_category->term_id;
+						$args = array(
+							'parent'  => $term_id
+						);
+						$portfolio_categories = get_terms( 'portfolio_category',$args);
 					}
-					
-					$html .= '</li>';
-				}
-		$html .= "</ul></div>";
-	}
-	$html .= "<div class='portfolio_outer'><div class='portfolio_holder portfolio_holder_v$columns'>";
-	
-	if ($category == "") {
-		$args = array(
-			'post_type'=> 'portfolio_page',
-			'orderby' => 'menu_order',
-			'order' => 'ASC',
-			'posts_per_page' => $number
-		);
-	} else {
-		$args = array(
-			'post_type'=> 'portfolio_page',
-			'portfolio_category' => $category,
-			'orderby' => 'menu_order',
-			'order' => 'ASC',
-			'posts_per_page' => $number
-		);
-	}
-	$project_ids = null;
-	if ($selected_projects != "") {
-		$project_ids = explode(",",$selected_projects);
-		$args['post__in'] = $project_ids;
-	}
-	query_posts( $args );
-	if ( have_posts() ) : while ( have_posts() ) : the_post(); 
-	$terms = wp_get_post_terms(get_the_ID(),'portfolio_category');
-	$html .= "<article class='element ";
-	foreach($terms as $term) {
-		$html .= "$term->slug ";
-	}
-	$html .="'>";
-	$html .= "<div class='article_inner'>";
-	$html .= "<div class='image'>".get_the_post_thumbnail()."</div>";
-	$html .= "<h5><a href='". get_permalink() ."' class='more'>" . get_the_title() . "</a></h5><hr/>";
-	$html .= '<p>'.strip_tags( get_the_excerpt() ).'</p><a class="view button tiny" href="'. get_permalink() .'">'. __('View','qode') .'</a>';
-	$html .= "<a href='". get_permalink() ."' class='fake_link'>&nbsp;</a>";
-	$html .= "</div><div class='separator'></div></article>";
+					foreach($portfolio_categories as $portfolio_category) {
+						$html .=	"<li><a data-filter='.$portfolio_category->slug' href='#'>$portfolio_category->name</a>";
+						$args = array(
+							'child_of' => $portfolio_category->term_id
+						);
+						$portfolio_categories2 = get_terms( 'portfolio_category',$args);
 						
-	endwhile; else: ?>
-	<p><?php _e('Sorry, no posts matched your criteria.','qode'); ?></p>
-	<?php endif; 	
-	wp_reset_query();	
-	
-	$html .= "</div></div>";
-    return $html;
-}
+						if(count($portfolio_categories2) > 0){
+							$html .= '<ul>';
+							foreach($portfolio_categories2 as $portfolio_category2) {
+								$html .=	"<li><a data-filter='.$portfolio_category2->slug' href='#'>$portfolio_category2->name</a></li>";
+							}
+							$html .= '</ul>';
+						}
+						
+						$html .= '</li>';
+					}
+			$html .= "</ul></div>";
+		}
+		$html .= "<div class='portfolio_outer'><div class='portfolio_holder portfolio_holder_v$columns'>";
+		
+		if ($category == "") {
+			$args = array(
+				'post_type'=>$atts['potfolio_type'],
+				'orderby' => 'menu_order',
+				'order' => 'ASC',
+				'posts_per_page' => $number
+			);
+		} else {
+			$args = array(
+				'post_type'=>$atts['potfolio_type'],
+				'portfolio_category' => $category,
+				'orderby' => 'menu_order',
+				'order' => 'ASC',
+				'posts_per_page' => $number
+			);
+		}
+		$project_ids = null;
+		if ($selected_projects != "") {
+			$project_ids = explode(",",$selected_projects);
+			$args['post__in'] = $project_ids;
+		}
+		query_posts( $args );
+		if ( have_posts() ) : while ( have_posts() ) : the_post(); 
+		$terms = wp_get_post_terms(get_the_ID(),'portfolio_category');
+		$html .= "<article class='element ";
+		foreach($terms as $term) {
+			$html .= "$term->slug ";
+		}
+		$portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
+		$html .="'>";
+		$html .= "<div class='article_inner'>";
+		$html .= "<div class='image'>".get_the_post_thumbnail()."</div>";
+		$html .= "<h5><a href='". get_permalink() ."' class='more'>" . get_the_title() . "</a></h5><hr/>";
+		$html .= '<p>'.$portfolios[1]['optionValue'].'</p><a class="view button tiny" href="'. get_permalink() .'">'. __('Voir','qode') .'</a>';
+		$html .= "<a href='". get_permalink() ."' class='fake_link'>&nbsp;</a>";
+		$html .= "</div><div class='separator'></div></article>";
+							
+		endwhile; else: ?>
+		<p><?php _e('Sorry, no posts matched your criteria.','qode'); ?></p>
+		<?php endif; 	
+		wp_reset_query();	
+		
+		$html .= "</div></div>";
+	    return $html;
+	}
 }
 add_shortcode('portfolio_list', 'portfolio_list');
 

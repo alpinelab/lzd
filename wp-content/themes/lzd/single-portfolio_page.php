@@ -16,6 +16,7 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 								echo $portfolios[0]['optionValue'];
 							?>
 						</span></h1>
+
 							<?php
 							if ($portfolios[1])
 								echo $portfolios[1]['optionValue'];
