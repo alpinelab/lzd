@@ -1,0 +1,22 @@
+.bsk-details-form {
+	
+}
+
+.bsk-details-form li {
+	
+}
+
+.bsk-details-form li label {
+	width: 10%;
+	display: inline-block;
+}
+
+.bsk-details-form li input[type="text"] {
+	width: 30%;
+}
+.bsk-details-form li .bsk_description {
+	display: inline-block;
+}
+.bsk_files_manager_support{
+	margin-top:50px;
+}
