@@ -1,19 +1,53 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,700);
 
-.tp-caption.big_yellow{
+.tp-caption.titre{
             position: absolute; 
-			color: #ffd658; 
+			color: #fff; 
 			text-shadow: none; 
 			font-weight: 400; 
-			font-size: 100px; 
-			line-height: 36px; 
+			font-size: 26px; 
+			line-height: 40px; 
+			font-family: "Open Sans"; 
+			padding: 0px 4px; 
+			padding-top: 4px;
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:#111;	
+								
+		}
+.tp-caption.big_description{
+            position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 400; 
+			font-size: 16px; 
+			line-height: 20px; 
 			font-family: "Open Sans"; 
 			padding: 0px 4px; 
 			padding-top: 1px;
 			margin: 0px; 
 			border-width: 0px; 
 			border-style: none; 
-			background-color:transparent;	
+			background-color:#111;	
+								
+		}
+
+
+.tp-caption.big_yellow{
+            position: absolute; 
+			color: #fff; 
+			text-shadow: none; 
+			font-weight: 400; 
+			font-size: 16px; 
+			line-height: 20px; 
+			font-family: "Open Sans"; 
+			padding: 0px 4px; 
+			padding-top: 1px;
+			margin: 0px; 
+			border-width: 0px; 
+			border-style: none; 
+			background-color:#111;	
 								
 		}
 
