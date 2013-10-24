@@ -9,7 +9,7 @@ class myCustomFields
 		/**
 		* @var  array  $postTypes  An array of public custom post types, plus the standard "post" and "page" - add the custom types you want to include here
 		*/
-		var $postTypes = array( "page", "post","portfolio_page", "spectacle", "residence");
+		var $postTypes = array( "page", "post","portfolio_page","spectacle", "residence");
 		/**
 		* @var  array  $customFields  Defines the custom fields available
 		*/
@@ -20,7 +20,7 @@ class myCustomFields
 				"title"			=> "Don't show page title",
 				"description"	=> "",
 				"type"			=> "checkbox",
-				"scope"			=>	array("page","post","portfolio_page", "spectacle", "residence"),
+				"scope"			=>	array("page","post","portfolio_page"),
 				"capability"	=> "manage_options"
 			),
 			array(
@@ -28,7 +28,7 @@ class myCustomFields
 				"title"			=> "Page Subtitle",
 				"description"	=> "",
 				"type"			=> "text",
-				"scope"			=>	array("page","post","portfolio_page", "spectacle", "residence"),
+				"scope"			=>	array("page","post","portfolio_page"),
 				"capability"	=> "manage_options"
 			),
 			array(
@@ -60,7 +60,7 @@ class myCustomFields
 				"title"			=> "Choose animation",
 				"description"	=> "",
 				"type"			=> "selectbox-animation",
-				"scope"			=>	array("page","post","portfolio_page", "spectacle", "residence"),
+				"scope"			=>	array("page","post","portfolio_page"),
 				"capability"	=> "manage_options"
 			),
 			array(
@@ -84,7 +84,7 @@ class myCustomFields
 				"title"			=> "Choose portfolio single view",
 				"description"	=> "",
 				"type"			=> "selectbox-portfolio-single",
-				"scope"			=>	array("portfolio_page", "spectacle"),
+				"scope"			=>	array("portfolio_page"),
 				"capability"	=> "manage_options"
 			),
 			array(
@@ -92,7 +92,7 @@ class myCustomFields
 				"title"			=> "Choose portfolio back link",
 				"description"	=> "",
 				"type"			=> "selectbox-portfolio-list-page",
-				"scope"			=>	array("portfolio_page", "spectacle"),
+				"scope"			=>	array("portfolio_page"),
 				"capability"	=> "manage_options"
 			),
 			array(
@@ -100,7 +100,7 @@ class myCustomFields
 				"title"			=> "Enter revolution slider shortcode",
 				"description"	=> "",
 				"type"			=> "text",
-				"scope"			=>	array("page","post","portfolio_page", "spectacle"),
+				"scope"			=>	array("page","post","portfolio_page"),
 				"capability"	=> "manage_options"
 			),
 		);
@@ -734,10 +734,10 @@ foreach ($array_field as $result)
 		$v = "";
 	echo '<div class="portfolio" rel="'.$i.'" style="display: block;">';
 	echo '<input id="optionlabelordernumber_'.$i.'" type="hidden" name="optionlabelordernumber[]" value="'.$i.'" class="ordernumber" />';
-	echo '<input type="hidden" id="optionLabel_'.$i.'" name="optionLabel[]" value="'.$v.'">';
+	echo '<input type="hidden" id="optionLabel_'.$i.'" name="optionLabel[]" value="'.$v.'" />';
 	echo '<div class="input form-field">';
 	echo '<label for="optionValue_'.$i.'"><b>'.$result.'</b></label>';
-	echo '<textarea rows="8" cols="40" id="optionValue_'.$i.'" name="optionValue[]">'.stripslashes($portfolios[$i-1]['optionValue']).'</textarea>';
+	echo '<textarea rows="8" cols="40" id="optionValue_'.$i.'" name="optionValue[]">'.((isset($portfolios[$i-1]['optionValue'])) ? stripslashes($portfolios[$i-1]['optionValue']) : '').'</textarea>';
 	echo'</div>';	
 }
 ?>					
