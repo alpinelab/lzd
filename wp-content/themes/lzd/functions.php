@@ -3,7 +3,8 @@ include_once('shortcodes.php');
 include_once('custom_class.php');
 include_once('type/spectacle.php');
 include_once('type/residence.php');
-Function wp_schools_enqueue_scripts() 
+
+function wp_schools_enqueue_scripts()
 {
 	wp_register_style( 'childstyle', get_stylesheet_directory_uri() . '/style.css'  );
 	wp_enqueue_style( 'childstyle' );
@@ -25,7 +26,7 @@ function remove_meta_portfolio() {
 add_action( 'admin_init' , 'remove_meta_portfolio');
 
 
-function add_meta_portfolio() 
+function add_meta_portfolio()
 {
   add_meta_box( 'my-custom-portfolio', 'Qode Portfolio', array(new myCustomFields(), 'displayCustomPortfolio'), 'residence', 'normal', 'high');
   add_meta_box( 'my-custom-portfolio', 'Qode Portfolio', array(new myCustomFields(), 'displayCustomPortfolio'), 'spectacle', 'normal', 'high');
