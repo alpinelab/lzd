@@ -23,9 +23,9 @@ if (!function_exists('create_post_type_residence')) {
 }
 add_action('init', 'create_post_type_residence');
 
-if (!function_exists('create_portfolio_taxonomies2')) 
+if (!function_exists('create_portfolio_taxonomies2'))
 {
-	function create_portfolio_taxonomies2() 
+	function create_portfolio_taxonomies2()
 	{
 	   $labels = array(
 	    'name' => __( 'Catégorie de spéctacles', 'taxonomy general name' ),
@@ -34,12 +34,12 @@ if (!function_exists('create_portfolio_taxonomies2'))
 	    'all_items' => __( 'All Portfolio Categories','qode' ),
 	    'parent_item' => __( 'Parent Portfolio Category','qode' ),
 	    'parent_item_colon' => __( 'Parent Portfolio Category:','qode' ),
-	    'edit_item' => __( 'Edit Portfolio Category','qode' ), 
+	    'edit_item' => __( 'Edit Portfolio Category','qode' ),
 	    'update_item' => __( 'Update Portfolio Category','qode' ),
 	    'add_new_item' => __( 'Add New Portfolio Category','qode' ),
 	    'new_item_name' => __( 'New Portfolio Category Name','qode' ),
 	    'menu_name' => __( 'Catégorie de residences','qode' ),
-	  );     
+	  );
 
 	  register_taxonomy('portfolio_category',array('residence'), array(
 	    'hierarchical' => true,

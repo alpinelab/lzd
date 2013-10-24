@@ -8,4 +8,4 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 <div class="container">
 	<?php echo do_shortcode("[portfolio_list columns='2' number='10' category='' selected_projects='' filter='no' potfolio_type='residence']"); ?>
 </div>
-<?php get_footer(); ?>	
+<?php get_footer(); ?>

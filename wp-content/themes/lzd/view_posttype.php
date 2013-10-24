@@ -28,16 +28,16 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 								</a>
 							<?php }else{ ?>
 								<a class="cart-contents" href="" ></a>
-							<?php } ?>	
-	 					</div>	
+							<?php } ?>
+	 					</div>
 	 					<div class="info" style="padding-bottom:20px;"><span>
 						<?php } ?>
-						<?php	
+						<?php
 						$revslider = get_post_meta($id, "qode_revolution-slider", true);
 						if (!empty($revslider)){
 						echo do_shortcode($revslider);
 						}
-						?>			
+						?>
 					</span></div>
 					</div>
 
@@ -49,33 +49,33 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 						$portfolio_images = get_post_meta(get_the_ID(), "qode_portfolio_images", true);
 						if ($portfolio_images){
 							usort($portfolio_images, "comparePortfolioImages");
-							foreach($portfolio_images as $portfolio_image){	
+							foreach($portfolio_images as $portfolio_image){
 							?>
-								
+
 								<?php if($portfolio_image['portfolioimg'] != ""){ ?>
 									<img src="<?php echo stripslashes($portfolio_image['portfolioimg']); ?>" alt="" />
 								<?php }else{ ?>
-									
+
 									<?php
 									$portfoliovideotype = "";
 									if (isset($portfolio_image['portfoliovideotype'])) $portfoliovideotype = $portfolio_image['portfoliovideotype'];
 									switch ($portfoliovideotype){
 										case "youtube": ?>
-											
+
 												<iframe width="100%" src="http://www.youtube.com/embed/<?php echo $portfolio_image['portfoliovideoid'];  ?>?wmode=transparent" wmode="Opaque" frameborder="0" allowfullscreen></iframe>
-											
+
 										<?php	break;
 										case "vimeo": ?>
-											
+
 												<iframe src="http://player.vimeo.com/video/<?php echo $portfolio_image['portfoliovideoid'];  ?>?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-											
-											
-									<?php break;	
+
+
+									<?php break;
 									} ?>
-									
+
 								<?php } ?>
-								
-							<?php						
+
+							<?php
 							}
 						}
 						?>
@@ -88,20 +88,20 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 								$portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 								if ($portfolios){
 									usort($portfolios, "comparePortfolioOptions");
-									foreach($portfolios as $portfolio){	
+									foreach($portfolios as $portfolio){
 									?>
 										<div class="info">
 										<?php if($portfolio['optionLabel'] != ""): ?>
 										<h6 class="label"><?php echo stripslashes($portfolio['optionLabel']); ?>:</h6>
 										<?php endif; ?>
 										<span>
-											<?php 
+											<?php
 											if($portfolio['optionlabelordernumber'] > 2)
-												echo do_shortcode(stripslashes($portfolio['optionValue'])); 
+												echo do_shortcode(stripslashes($portfolio['optionValue']));
 											?>
 										</span>
 										</div>
-									<?php						
+									<?php
 									}
 								}
 								?>
@@ -117,7 +117,7 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 							<div class="portfolio_next"><?php next_post_link('%link', __('Next','qode')); ?></div>
 						</div>
 		<?php endwhile; ?>
-	<?php endif; ?>	
+	<?php endif; ?>
 
 	</div>
-<?php get_footer(); ?>	
+<?php get_footer(); ?>
