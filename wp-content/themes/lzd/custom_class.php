@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class myCustomFields
 {
@@ -14,7 +14,7 @@ class myCustomFields
 		* @var  array  $customFields  Defines the custom fields available
 		*/
 		var $customFields =	array(
-			
+
 			array(
 				"name"			=> "show-page-title",
 				"title"			=> "Don't show page title",
@@ -193,8 +193,8 @@ class myCustomFields
 										<option value="2" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "2" ) { ?> selected="selected" <?php } ?>>Sidebar 1/4 right</option>
 										<option value="3" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "3" ) { ?> selected="selected" <?php } ?>>Sidebar 1/3 left</option>
 										<option value="4" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "4" ) { ?> selected="selected" <?php } ?>>Sidebar 1/4 left</option>
-                                    
-                                    <?php 
+
+                                    <?php
                                     echo '</select>';
 									break;
 								}
@@ -205,8 +205,8 @@ class myCustomFields
 									?>
 										<option value="no" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "no" ) { ?> selected="selected" <?php } ?>>No</option>
 										<option value="yes" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "yes" ) { ?> selected="selected" <?php } ?>>Yes</option>
-									
-                                    <?php 
+
+                                    <?php
                                     echo '</select>';
 									break;
 								}
@@ -217,15 +217,15 @@ class myCustomFields
 									?>
 										<option value="no" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "no" ) { ?> selected="selected" <?php } ?>>No</option>
 										<option value="yes" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "yes" ) { ?> selected="selected" <?php } ?>>Yes</option>
-									
-                                    <?php 
+
+                                    <?php
                                     echo '</select>';
 									break;
 								}
-								
+
 								case "selectbox-category": {
-										$categories = get_categories(); 
-										
+										$categories = get_categories();
+
 										echo '<label for="' . $this->prefix . $customField[ 'name' ] .'" style="display:inline;"><b>' . $customField[ 'title' ] . '</b></label>&nbsp;&nbsp;';
 										echo '<select name="' . $this->prefix . $customField[ 'name' ] . '" id="' . $this->prefix . $customField[ 'name' ] . '"> ';
 											echo '<option value=""></option>';
@@ -234,10 +234,10 @@ class myCustomFields
 												if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == $category->term_id ) { echo 'selected="selected"';}
 												echo '>';
 												echo $category->name . '</option>';
-											
+
 											endforeach;
 										echo '</select>';
-									
+
 									break;
 								}
 								case "selectbox-portfolio-single": {
@@ -251,16 +251,16 @@ class myCustomFields
 											<option value="3" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "3" ) { ?> selected="selected" <?php } ?>>Portfolio style 3</option>
 											<option value="4" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "4" ) { ?> selected="selected" <?php } ?>>Portfolio style 4</option>
 											<option value="5" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "5" ) { ?> selected="selected" <?php } ?>>Portfolio style 5</option>
-										<?php 
+										<?php
 										echo '</select>';
-									
+
 									break;
 								}
-								
+
 								case "selectbox-portfolio-list-page": {
 										// Selectbox
 										echo '<label for="' . $this->prefix . $customField[ 'name' ] .'" style="display:inline;"><b>' . $customField[ 'title' ] . '</b></label>&nbsp;&nbsp;';
-										
+
 										$args = array(
 											'show_option_none' => ' ',
 											'option_none_value' => '',
@@ -268,10 +268,10 @@ class myCustomFields
 											'name' => $this->prefix . $customField[ 'name' ]
 										);
 										wp_dropdown_pages($args);
-									
+
 									break;
 								}
-								
+
 								case "selectbox-animation": {
 									$page_transitions = "3";
 									if (isset($qode_options['page_transitions'])) $page_transitions = $qode_options['page_transitions'];
@@ -284,8 +284,8 @@ class myCustomFields
 											<option value="no_animation" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "no_animation" ) { ?> selected="selected" <?php } ?>>No animation</option>
 											<option value="updown" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "updown" ) { ?> selected="selected" <?php } ?>>Up / Down</option>
 											<option value="fade" <?php if (get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) == "fade" ) { ?> selected="selected" <?php } ?>>Fade</option>
-																			
-																			<?php 
+
+																			<?php
 																			echo '</select>';
 									}
 									break;
@@ -294,7 +294,7 @@ class myCustomFields
 									// Datepicker
 									echo '<label for="' . $this->prefix . $customField[ 'name' ] .'"><b>' . $customField[ 'title' ] . '</b></label>';
 									echo '<input type="text" class="datepicker" name="' . $this->prefix . $customField[ 'name' ] . '" id="' . $this->prefix . $customField[ 'name' ] . '" value="' . htmlspecialchars( get_post_meta( $post->ID, $this->prefix . $customField[ 'name' ], true ) ) . '" />';
-									
+
 									break;
 								}
 								case "textarea":
@@ -350,19 +350,19 @@ class myCustomFields
 					?>
 				<label for="seo_keywords"><b>SEO Keywords</b></label>
 				<input id="seo_keywords" class="seo_keywords" type="text" value="<?php echo $seo_keywords; ?>" name="seo_keywords">
-			</div>		
+			</div>
 			<div class="input form-field">
 					<?php
 					$seo_description = get_post_meta( $post->ID, $this->prefix . 'seo_description', true );
 					?>
 				<label for="seo_description"><b>SEO Description</b></label>
 				<textarea id="seo_description" class="seo_description" name="seo_description"><?php echo $seo_description; ?></textarea>
-			</div>		
-					
+			</div>
 
-					
 
-			
+
+
+
 		</div>
 			<?php
 		}
@@ -547,7 +547,7 @@ while (isset($sliders[$no])) {
 			</div>
 			<?php
 		}
-		
+
 
 		function displayCustomParallax() {
 			global $post;
@@ -568,7 +568,7 @@ while (isset($sliders[$no])) {
 							<div class="colorSelector"><div style=""></div></div>
 							<input type="text" id="parcolor_x" name="parcolor_x" class="parallax_color" value="" />
 						</div>
-						
+
 					</div>
 					<div class="add_parallax">
 <?php
@@ -577,7 +577,7 @@ $parallaxes = get_post_meta( $post->ID, $this->prefix . 'parallaxes', true );
 while (isset($parallaxes[$no-1])) {
 	$parallax = $parallaxes[$no-1];
 ?>
-				
+
 <div class="parallax" rel="<?php echo $no; ?>" style="display: block;">
 <h3>Parallax section</h3>
 <div class="parallax_inner">
@@ -599,8 +599,8 @@ while (isset($parallaxes[$no-1])) {
 <a class="remove_parallax" href="/" onclick="javascript: return false;">Remove parallax section</a>
 </div>
 </div>
-					
-			
+
+
 <?php
 	$no++;
 }
@@ -610,7 +610,7 @@ while (isset($parallaxes[$no-1])) {
 		</div>
 			<?php
 		}
-		
+
 		function displayCustomPortfolio() {
 
 			global $post;
@@ -639,7 +639,7 @@ while (isset($parallaxes[$no-1])) {
 							<input type="text" name="portfoliovideoid_x" id="portfoliovideoid_x" class="portfoliovideoid" />
 						</div>
 					</div>
-					
+
 					<div class="hidden_portfolio">
 						<div class="input form-field">
 							<label><b>Order number</b></label>
@@ -652,14 +652,14 @@ while (isset($parallaxes[$no-1])) {
 						<div class="input form-field">
 							<label for=""><b>Option Value</b></label>
 							<textarea rows="8" cols="40" id="optionValue_x" name="optionValue_x"></textarea>
-						</div>						
+						</div>
 						<div class="input form-field">
 							<label for=""><b>Option Url</b></label>
 							<input type="text" id="optionUrl_x" name="optionUrl_x" />
-						</div>	
-						
+						</div>
+
 					</div>
-					
+
 <div class="add_portfolio_images">
 <h3>images/vidéos</h3>
 <div class="add_portfolio_images_inner">
@@ -672,7 +672,7 @@ if (count($portfolio_images)>1) {
 while (isset($portfolio_images[$no-1])) {
 	$portfolio_image = $portfolio_images[$no-1];
 ?>
-				
+
 <div class="portfolio_image" rel="<?php echo $no; ?>" style="display: block;">
 <div class="input form-field">
 <label for="portfolioimgordernumber_<?php echo $no; ?>"><b>Ordre</b></label>
@@ -698,8 +698,8 @@ while (isset($portfolio_images[$no-1])) {
 <a class="remove_image" href="/" onclick="javascript: return false;">Enlever une image/video</a>
 </div>
 
-					
-			
+
+
 <?php
 	$no++;
 }
@@ -713,7 +713,7 @@ while (isset($portfolio_images[$no-1])) {
 		<?php
 		$no = 1;
 		$portfolios = get_post_meta( $post->ID, $this->prefix . 'portfolios', true );
-		if (count($portfolios)>1) 
+		if (count($portfolios)>1)
 		{
 			usort($portfolios, "comparePortfolioOptions");
 		}
@@ -738,9 +738,9 @@ foreach ($array_field as $result)
 	echo '<div class="input form-field">';
 	echo '<label for="optionValue_'.$i.'"><b>'.$result.'</b></label>';
 	echo '<textarea rows="8" cols="40" id="optionValue_'.$i.'" name="optionValue[]">'.((isset($portfolios[$i-1]['optionValue'])) ? stripslashes($portfolios[$i-1]['optionValue']) : '').'</textarea>';
-	echo'</div>';	
+	echo'</div>';
 }
-?>					
+?>
 </div>
 
 </div>
@@ -754,7 +754,7 @@ $portfolio_date = get_post_meta( $post->ID, $this->prefix . 'portfolio_date', tr
 		</div>
 			<?php
 		}
-		
+
 		/**
 		* Save the new Custom Fields values
 		*/
@@ -778,8 +778,8 @@ $portfolio_date = get_post_meta( $post->ID, $this->prefix . 'portfolio_date', tr
 					}
 				}
 			}
-			
-			
+
+
 			$sliders = false;
 			if (isset($_POST['title'])) {
 			if (is_array($_POST['title'])) {
@@ -792,7 +792,7 @@ $portfolio_date = get_post_meta( $post->ID, $this->prefix . 'portfolio_date', tr
 			}
 			}
 			}
-			
+
 			 if ( current_user_can( $customField['capability'], $post_id ) ) {
 						if ($sliders) {
 								update_post_meta( $post_id, $this->prefix . 'sliders', $sliders_val );
@@ -800,16 +800,16 @@ $portfolio_date = get_post_meta( $post->ID, $this->prefix . 'portfolio_date', tr
 								delete_post_meta( $post_id, $this->prefix . 'sliders' );
 						}
 				}
-				
+
 			$parallaxes = false;
 			if (isset($_POST['imageid'])) {
 			foreach ($_POST['imageid'] as $key => $value) {
 					$parallaxes_val[$key] = array('imageid'=>$value,'parimg'=>$_POST['parimg'][$key],'parcolor'=>$_POST['parcolor'][$key]);
 					$parallaxes = true;
-				
+
 			}
 			}
-			
+
 			 if ( current_user_can( $customField['capability'], $post_id ) ) {
 						if ($parallaxes) {
 								update_post_meta( $post_id, $this->prefix . 'parallaxes', $parallaxes_val );
@@ -817,17 +817,17 @@ $portfolio_date = get_post_meta( $post->ID, $this->prefix . 'portfolio_date', tr
 								delete_post_meta( $post_id, $this->prefix . 'parallaxes' );
 						}
 				}
-				
+
 			$portfolios = false;
 			if (isset($_POST['optionLabel'])) {
 			foreach ($_POST['optionLabel'] as $key => $value) {
-					$portfolios_val[$key] = array('optionLabel'=>$value,'optionValue'=>$_POST['optionValue'][$key],'optionUrl'=>$_POST['optionUrl'][$key],'optionlabelordernumber'=>$_POST['optionlabelordernumber'][$key]); 
+					$portfolios_val[$key] = array('optionLabel'=>$value,'optionValue'=>$_POST['optionValue'][$key],'optionUrl'=>$_POST['optionUrl'][$key],'optionlabelordernumber'=>$_POST['optionlabelordernumber'][$key]);
 					$portfolios = true;
-				
+
 			}
 			}
-			
-			
+
+
 			 if ( current_user_can( $customField['capability'], $post_id ) ) {
 						if ($portfolios) {
 								update_post_meta( $post_id, $this->prefix . 'portfolios', $portfolios_val );
@@ -835,17 +835,17 @@ $portfolio_date = get_post_meta( $post->ID, $this->prefix . 'portfolio_date', tr
 								delete_post_meta( $post_id, $this->prefix . 'portfolios' );
 						}
 				}
-				
+
 			$portfolio_images = false;
 			if (isset($_POST['portfolioimg'])) {
 			foreach ($_POST['portfolioimg'] as $key => $value) {
 					$portfolio_images_val[$key] = array('portfolioimg'=>$_POST['portfolioimg'][$key],'portfolioimgordernumber'=>$_POST['portfolioimgordernumber'][$key], 'portfoliovideotype'=>$_POST['portfoliovideotype'][$key], 'portfoliovideoid'=>$_POST['portfoliovideoid'][$key] );
 					$portfolio_images = true;
-				
+
 			}
 			}
-			
-			
+
+
 			 if ( current_user_can( $customField['capability'], $post_id ) ) {
 						if ($portfolio_images) {
 								update_post_meta( $post_id, $this->prefix . 'portfolio_images', $portfolio_images_val );
@@ -853,7 +853,7 @@ $portfolio_date = get_post_meta( $post->ID, $this->prefix . 'portfolio_date', tr
 								delete_post_meta( $post_id, $this->prefix . 'portfolio_images' );
 						}
 				}
-				
+
 
 			$portfolio_date = "";
 			if (isset($_POST['portfolio_date']))
@@ -865,7 +865,7 @@ $portfolio_date = get_post_meta( $post->ID, $this->prefix . 'portfolio_date', tr
 								delete_post_meta( $post_id, $this->prefix . 'portfolio_date' );
 						}
 				}
-				
+
 			$seo_title = $_POST['seo_title'];
 			$seo_description = $_POST['seo_description'];
 			$seo_keywords = $_POST['seo_keywords'];
@@ -887,7 +887,7 @@ $portfolio_date = get_post_meta( $post->ID, $this->prefix . 'portfolio_date', tr
 				}
 			 }
 		}
-		
+
 
 }
 if ( class_exists('myCustomFields') ) {
