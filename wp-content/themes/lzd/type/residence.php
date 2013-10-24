@@ -1,55 +1,68 @@
 <?php
 if (!function_exists('create_post_type_residence')) {
-	function create_post_type_residence() {
-		register_post_type( 'residence',
-			array(
-				'labels' => array(
-					'name' => __( 'residence','qode' ),
-					'singular_name' => __( 'residence','qode' ),
-					'add_item' => __('Nouveau residence','qode'),
-	                'add_new_item' => __('Ajouter un residence','qode'),
-	                'edit_item' => __('Modifier un residence','qode')
-				),
-				'public' => true,
-				'has_archive' => true,
-				'rewrite' => array('slug' => 'residence'),
-				'menu_position' => 2,
-				'show_ui' => true,
-				'supports' => array('thumbnail', 'title')
-			)
-		);
-		  flush_rewrite_rules();
-	}
+  function create_post_type_residence() {
+    register_post_type( 'residence',
+      array(
+        'labels' => array(
+          'name'               => 'Résidences',
+          'singular_name'      => 'Résidence',
+          'all_items'          => 'Toutes les résidences',
+          'add_new'            => 'Ajouter',
+          'add_new_item'       => 'Ajouter une résidence',
+          'new_item'           => 'Nouvelle résidence',
+          'edit_item'          => 'Modifier la résidence',
+          'view_item'          => 'Voir la résidence',
+          'search_items'       => 'Chercher une résidence',
+          'not_found'          => 'Aucune résidence trouvée',
+          'not_found_in_trash' => 'Aucune résidence trouvée dans la poubelle',
+          'parent_item'        => '',
+          'parent_item_colon'  => '',
+          'menu_name'          => 'Résidences'
+        ),
+        'public'        => true,
+        'has_archive'   => true,
+        'rewrite'       => array('slug' => 'residence'),
+        'menu_position' => 7,
+        'show_ui'       => true,
+        'supports'      => array('thumbnail', 'title')
+      )
+    );
+    flush_rewrite_rules();
+  }
 }
 add_action('init', 'create_post_type_residence');
 
-if (!function_exists('create_portfolio_taxonomies2'))
+if (!function_exists('create_residences_taxonomies'))
 {
-	function create_portfolio_taxonomies2()
-	{
-	   $labels = array(
-	    'name' => __( 'Catégorie de spéctacles', 'taxonomy general name' ),
-	    'singular_name' => __( 'Catégorie de spéctacle', 'taxonomy singular name' ),
-	    'search_items' =>  __( 'Search Portfolio Categories','qode' ),
-	    'all_items' => __( 'All Portfolio Categories','qode' ),
-	    'parent_item' => __( 'Parent Portfolio Category','qode' ),
-	    'parent_item_colon' => __( 'Parent Portfolio Category:','qode' ),
-	    'edit_item' => __( 'Edit Portfolio Category','qode' ),
-	    'update_item' => __( 'Update Portfolio Category','qode' ),
-	    'add_new_item' => __( 'Add New Portfolio Category','qode' ),
-	    'new_item_name' => __( 'New Portfolio Category Name','qode' ),
-	    'menu_name' => __( 'Catégorie de residences','qode' ),
-	  );
+  function create_residences_taxonomies()
+  {
+     $labels = array(
+      'name' 	             => 'Catégories',
+      'singular_name'      => 'Catégorie',
+      'all_items'          => 'Toutes les catégories',
+      'add_new'            => 'Ajouter',
+      'add_new_item'       => 'Ajouter une catégorie',
+      'new_item'           => 'Nouvelle catégorie',
+      'edit_item'          => 'Modifier la catégorie',
+      'update_item'        => 'Mettre à jour la catégorie',
+      'view_item'          => 'Voir la catégorie',
+      'search_items'       => 'Chercher une catégorie',
+      'not_found'          => 'Aucune catégorie trouvée',
+      'not_found_in_trash' => 'Aucune catégorie trouvée dans la poubelle',
+      'parent_item'        => '',
+      'parent_item_colon'  => '',
+      'menu_name'          => 'Catégories'
+    );
 
-	  register_taxonomy('portfolio_category',array('residence'), array(
-	    'hierarchical' => true,
-	    'labels' => $labels,
-	    'show_ui' => true,
-	    'query_var' => true,
-	    'rewrite' => array( 'slug' => 'residence-category' ),
-	  ));
+    register_taxonomy('residences_category', 'residence', array(
+      'hierarchical' => true,
+      'labels'       => $labels,
+      'show_ui'      => true,
+      'query_var'    => true,
+      'rewrite'      => array('slug' => 'categorie-de-residences')
+    ));
 
-	}
+  }
 }
-add_action( 'init', 'create_portfolio_taxonomies2', 0 );
+add_action( 'init', 'create_residences_taxonomies', 0 );
 ?>
