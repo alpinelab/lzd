@@ -20,6 +20,10 @@ Template: minimum
 .tp-caption.titre,
 .tp-caption.big_description {
   font-family: inherit;
+  color: white;
+  background-color: transparent;
+  text-shadow: 0 0 2px black;
+  filter: dropshadow(color=black, offx=0, offy=0);
 }
 .tp-caption.big_description {
   font-style: italic;
