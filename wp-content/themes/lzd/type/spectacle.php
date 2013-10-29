@@ -24,7 +24,7 @@ if (!function_exists('create_post_type_spectacle')) {
         'rewrite'       => array('slug' => 'spectacle'),
         'menu_position' => 7,
         'show_ui'       => true,
-        'supports'      => array('thumbnail', 'title')
+        'supports'      => array('thumbnail', 'title', 'editor')
       )
     );
     flush_rewrite_rules();

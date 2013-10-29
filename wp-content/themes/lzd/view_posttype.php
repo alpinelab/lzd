@@ -44,7 +44,8 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 				</div>
 
 			<div class="container">
-							<div class="portfolio_images">
+						<div class="editor_content"><? the_content() ?></div>
+						<div class="portfolio_images">
 						<?php
 						$portfolio_images = get_post_meta(get_the_ID(), "qode_portfolio_images", true);
 						if ($portfolio_images){

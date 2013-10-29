@@ -19,16 +19,12 @@ function remove_portfolio_taxonomy() {
 add_action('after_setup_theme', 'remove_portfolio_taxonomy');
 
 function remove_meta_fields_for_spectacle() {
-  remove_post_type_support('spectacle', 'editor');
-  remove_meta_box('my-custom-sliders'  , 'spectacle' , 'normal', 'high');
   remove_meta_box('my-custom-portfolio', 'spectacle' , 'normal', 'high');
   remove_meta_box('my-custom-parallax' , 'spectacle' , 'normal', 'high');
 }
 add_action('admin_init' , 'remove_meta_fields_for_spectacle');
 
 function remove_meta_fields_for_residence() {
-  remove_post_type_support('residence', 'editor');
-  remove_meta_box('my-custom-sliders',   'residence', 'normal', 'high');
   remove_meta_box('my-custom-portfolio', 'residence', 'normal', 'high');
   remove_meta_box('my-custom-parallax',  'residence', 'normal', 'high');
 }
