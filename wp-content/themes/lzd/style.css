@@ -22,16 +22,30 @@ Template: minimum
   font-family: inherit;
   color: white;
   background-color: transparent;
-  text-shadow: 0 0 2px black;
+  text-shadow: 0 0 2px black, 0 0 2px black;
   filter: dropshadow(color=black, offx=0, offy=0);
 }
 .tp-caption.big_description {
   font-style: italic;
+  white-space: normal !important;
 }
 
 footer {
   width: 100%;
   margin-bottom: 50px;
+}
+footer .widget li a {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+footer .left > a:first-child {
+  float: left;
+}
+footer .left > br:nth-child(2) {
+  display: none;
+}
+footer .left > .widget {
+  margin-left: 120px;
 }
 
 .slider_small .slide_item .image {
@@ -66,4 +80,8 @@ footer {
 
 .bsk-files-category li:hover {
   background-color : #155CA8;
+}
+
+.slider_small {
+  margin-top: 70px !important;
 }
