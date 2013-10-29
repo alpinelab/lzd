@@ -56,17 +56,19 @@ footer .left > .widget {
 }
 
 .bsk-files-category li {
-  background-color: #033469;
-  width: 150px;
+  background-color: black;
+  width: 30%;
   float: left;
-  padding: 44px;
-  margin: 20px;
+  margin: 1em 1.5%;
   border-radius: 4px;
-  margin-bottom:40px;
+}
+.bsk-files-category li:hover {
+  background-color : #333;
 }
 
 .bsk-files-category li a {
-  color: #FFFFFF;
+  color: white;
+  padding: 2em 0;
   text-decoration: none;
   text-align: center;
   font-family: inherit;
@@ -74,12 +76,8 @@ footer .left > .widget {
   display: block;
 }
 
-.bsk-files-category li a:hover {
-  text-decoration:underline;
-}
-
-.bsk-files-category li:hover {
-  background-color : #155CA8;
+.bsk-files-category li:last-child {
+  margin-bottom: 10em;
 }
 
 .slider_small {
