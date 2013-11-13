@@ -12,6 +12,10 @@ Template: minimum
 .portfolio_images img {
   width: auto;
 }
+.portfolio_detail pre {
+  font-family: inherit;
+  font-size: 13px;
+}
 
 .article_inner .image img {
   max-height: 238px;

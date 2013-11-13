@@ -95,32 +95,29 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 						<div class="two_columns_33_66 clearfix portfolio_container">
 					<div class="column_center" style="text-align:justify">
 						<div class="column_inner">
-							<div class="portfolio_detail portfolio_single_follow">
-								<?php
+							<div class="portfolio_detail portfolio_single_follow"> <?
 								$portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
-								if ($portfolios){
+								if ($portfolios) {
 									usort($portfolios, "comparePortfolioOptions");
-									foreach($portfolios as $portfolio){
-									?>
-										<div class="info">
-										<?php if($portfolio['optionLabel'] != ""): ?>
-										<h6 class="label"><?php echo stripslashes($portfolio['optionLabel']); ?>:</h6>
-										<?php endif; ?>
-										<span>
-											<?php
-											if($portfolio['optionlabelordernumber'] > 2)
-												echo do_shortcode(stripslashes($portfolio['optionValue']));
-											?>
-										</span>
-										</div>
-									<?php
+									foreach ($portfolios as $portfolio) {
+										if ($portfolio['optionlabelordernumber'] > 2) { ?>
+											<div class="info"> <?
+												if($portfolio['optionLabel'] != "") { ?>
+													<h6 class="label"><?= stripslashes($portfolio['optionLabel']); ?>:</h6> <?
+												}
+												if ($portfolio['optionlabelordernumber'] == 3) { ?>
+													<span><?= do_shortcode(stripslashes($portfolio['optionValue'])) ?></span> <?
+												} else { ?>
+													<pre><?= $portfolio['optionValue'] ?></pre> <?
+												} ?>
+											</div> <?
+										}
 									}
-								}
-								?>
+								} ?>
 							</div>
 						</div>
 					</div>
-						</div>
+				</div>
 		<?php endwhile; ?>
 	<?php endif; ?>
 
