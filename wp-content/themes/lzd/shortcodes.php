@@ -603,7 +603,7 @@ if (!function_exists('portfolio_list'))
 		$portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 		$html .="'>";
 		$html .= "<div class='article_inner'>";
-		$html .= "<div class='image'>".get_the_post_thumbnail()."</div>";
+		$html .= "<div class='image'>".get_the_post_thumbnail(get_the_ID(), 'blog-type-5-big')."</div>";
 		$html .= "<h5><a href='". get_permalink() ."' class='more'>" . get_the_title() . "</a></h5><hr/>";
 		$html .= '<p>'.$portfolios[1]['optionValue'].'</p><a class="view button tiny" href="'. get_permalink() .'">'. __('Voir','qode') .'</a>';
 		$html .= "<a href='". get_permalink() ."' class='fake_link'>&nbsp;</a>";
