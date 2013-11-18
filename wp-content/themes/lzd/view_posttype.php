@@ -21,7 +21,7 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 			<?php if(!get_post_meta(get_the_ID(), "qode_show-page-title", true)) { ?>
 				<div class="container">
 					<div class="title">
-						<h1 style="font-size:25px"><span>
+						<h1><span>
 							<?php
 							if ($portfolios[0])
 								echo $portfolios[0]['optionValue'];
