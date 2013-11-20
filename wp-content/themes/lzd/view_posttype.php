@@ -27,11 +27,12 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 								echo $portfolios[0]['optionValue'];
 							?>
 						</span></h1>
-
+						<div class="chapeau">
 							<?php
 							if ($portfolios[1])
 								echo $portfolios[1]['optionValue'];
 							?>
+						</div>
 						<div class="woocommerce_cart_items">
 	 						<?php if($woocommerce->cart->cart_contents_count > 0 ){ ?>
 								<a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'woothemes'); ?>">
