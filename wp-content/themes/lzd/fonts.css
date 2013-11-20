@@ -1,9 +1,12 @@
 /* Generic */
+
 html, body, * {
   font-family: 'Akzidenz Grotesk' !important;
 }
 
+
 /* Menu */
+
 #menu-main_nav > .menu-item a {
   font-weight: bold !important;
   font-style: normal !important;
@@ -18,7 +21,9 @@ html, body, * {
   color: #696969 !important;
 }
 
-/* Titles */
+
+/* Residence & Spectacle single pages */
+
 .single-spectacle .chapeau,
 .single-residence .chapeau {
   font-size: 16px !important;
@@ -42,6 +47,43 @@ html, body, * {
 .single-residence .portfolio_detail .info h6.label {
   font-size: 17px !important;
   font-weight: 700 !important;
+  font-style: normal !important;
+}
+
+
+/* Residence & Spectacle archive page */
+
+.post-type-archive-spectacle .isotope .isotope-item .article_inner > h5,
+.post-type-archive-residence .isotope .isotope-item .article_inner > h5 {
+  font-size: 17px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+}
+
+.post-type-archive-spectacle .isotope .isotope-item .article_inner > p,
+.post-type-archive-residence .isotope .isotope-item .article_inner > p {
+  font-size: 17px !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+}
+
+.post-type-archive-spectacle .isotope .isotope-item .article_inner > a.view.button.tiny:hover,
+.post-type-archive-residence .isotope .isotope-item .article_inner > a.view.button.tiny:hover {
+  color: black !important;
+  background-color: white !important;
+}
+
+/* Footer */
+
+footer .footer_content .menu .menu-item a {
+  font-size: 17px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+footer .footer_content .widget_recent_entries > h5,
+footer .footer_content .widget_recent_entries > ul > li > a {
+  font-size: 17px !important;
   font-style: normal !important;
 }
 
