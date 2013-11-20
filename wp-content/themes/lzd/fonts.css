@@ -42,6 +42,13 @@ i {
 }
 
 
+/* Blog */
+
+.posts_holder3 article .article_inner > h2 > a {
+  font-weight: 700 !important;
+}
+
+
 /* Residence & Spectacle single pages */
 
 .single-spectacle .chapeau,
