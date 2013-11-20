@@ -4,6 +4,10 @@ html, body, * {
   font-family: 'Akzidenz Grotesk' !important;
 }
 
+i {
+  font-weight: 400 !important;
+}
+
 
 /* Menu */
 
@@ -34,6 +38,7 @@ html, body, * {
 .single-residence .portfolio_prev a,
 .single-residence .portfolio_next a {
   font-size: 18px !important;
+  font-weight: 700 !important;
 }
 
 .single-spectacle .portfolio_detail .info span,
@@ -46,8 +51,8 @@ html, body, * {
 .single-spectacle .portfolio_detail .info h6.label,
 .single-residence .portfolio_detail .info h6.label {
   font-size: 17px !important;
+  font-style: italic !important;
   font-weight: 700 !important;
-  font-style: normal !important;
 }
 
 
@@ -102,11 +107,11 @@ footer .footer_content .widget_recent_entries > ul > li > a {
 
 @font-face {
   font-family: 'Akzidenz Grotesk';
-  src: url('fonts/akzidenzgroteskbe-mdcnit-webfont.eot');
-  src: url('fonts/akzidenzgroteskbe-mdcnit-webfont.eot?#iefix') format('embedded-opentype'),
-     url('fonts/akzidenzgroteskbe-mdcnit-webfont.woff') format('woff'),
-     url('fonts/akzidenzgroteskbe-mdcnit-webfont.ttf') format('truetype'),
-     url('fonts/akzidenzgroteskbe-mdcnit-webfont.svg#berthold_akzidenz_groteskMdIt') format('svg');
+  src: url('fonts/akzidenzgroteskbe-it-webfont.eot');
+  src: url('fonts/akzidenzgroteskbe-it-webfont.eot?#iefix') format('embedded-opentype'),
+     url('fonts/akzidenzgroteskbe-it-webfont.woff') format('woff'),
+     url('fonts/akzidenzgroteskbe-it-webfont.ttf') format('truetype'),
+     url('fonts/akzidenzgroteskbe-it-webfont.svg#berthold_akzidenz_grotesk_bIt') format('svg');
   font-weight: normal;
   font-style: italic;
 }
@@ -120,4 +125,15 @@ footer .footer_content .widget_recent_entries > ul > li > a {
      url('fonts/akzidenzgroteskbe-xbdcn-webfont.svg#berthold_akzidenz_grotesk_bRg') format('svg');
   font-weight: bold;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akzidenz Grotesk';
+  src: url('fonts/akzidenzgroteskbe-mdcnit-webfont.eot');
+  src: url('fonts/akzidenzgroteskbe-mdcnit-webfont.eot?#iefix') format('embedded-opentype'),
+     url('fonts/akzidenzgroteskbe-mdcnit-webfont.woff') format('woff'),
+     url('fonts/akzidenzgroteskbe-mdcnit-webfont.ttf') format('truetype'),
+     url('fonts/akzidenzgroteskbe-mdcnit-webfont.svg#berthold_akzidenz_groteskMdIt') format('svg');
+  font-weight: bold;
+  font-style: italic;
 }
