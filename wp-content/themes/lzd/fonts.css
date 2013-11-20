@@ -26,6 +26,22 @@ i {
 }
 
 
+/* Home */
+
+.home h4 {
+  font-weight: bold !important;
+  font-size: 21px !important;
+  font-style: normal !important;
+}
+
+.home .slider_small .slider .slide_item > h5,
+.home .accordion > h5 {
+  font-size: 17px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+}
+
+
 /* Residence & Spectacle single pages */
 
 .single-spectacle .chapeau,
