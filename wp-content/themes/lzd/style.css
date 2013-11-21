@@ -93,3 +93,7 @@ footer .left > .widget {
 .slider_small {
   margin-top: 70px !important;
 }
+
+blockquote {
+  border-left-color: black !important;
+}
