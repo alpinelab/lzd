@@ -95,12 +95,6 @@ i {
   font-weight: 400 !important;
 }
 
-.post-type-archive-spectacle .isotope .isotope-item .article_inner > a.view.button.tiny:hover,
-.post-type-archive-residence .isotope .isotope-item .article_inner > a.view.button.tiny:hover {
-  color: black !important;
-  background-color: white !important;
-}
-
 /* Footer */
 
 footer .footer_content .menu .menu-item a {

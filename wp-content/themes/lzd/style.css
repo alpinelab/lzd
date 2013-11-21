@@ -57,6 +57,16 @@ footer .left > br:nth-child(2) {
 footer .left > .widget {
   margin-left: 120px;
 }
+footer .widget_search input[type="text"] {
+  height: 25px !important;
+}
+footer .widget_search input[type="submit"] {
+  height: 27px !important;
+}
+#searchform input[type="submit"]:hover {
+  color: black !important;
+  background-color: white !important;
+}
 
 .slider_small .slide_item .image {
   overflow: hidden;
@@ -96,4 +106,10 @@ footer .left > .widget {
 
 blockquote {
   border-left-color: black !important;
+}
+
+.post-type-archive-spectacle .isotope .isotope-item .article_inner > a.view.button.tiny:hover,
+.post-type-archive-residence .isotope .isotope-item .article_inner > a.view.button.tiny:hover {
+  color: black !important;
+  background-color: white !important;
 }
