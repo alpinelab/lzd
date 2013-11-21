@@ -721,9 +721,9 @@ while (isset($portfolio_images[$no-1])) {
 
 <?php
 if (get_post_type( get_the_ID() ) == 'residence')
-	$array_field = array('Titre', 'Chapeau', 'Texte', 'Distributions', 'Revue de presse');
+	$array_field = array('Titre', 'Chapeau', 'Texte', 'Distributions', 'Mentions', 'Ils en ont parlé...');
 else
-	$array_field = array('Titre', 'Chapeau', 'Texte', 'Distributions', 'Mentions', 'Revue de presse');
+	$array_field = array('Titre', 'Chapeau', 'Texte', 'Distributions', 'Mentions', 'Ils en ont parlé...');
 $i = 0;
 foreach ($array_field as $result)
 {
