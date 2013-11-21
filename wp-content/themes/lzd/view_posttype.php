@@ -105,12 +105,8 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 											<div class="info"> <?
 												if($portfolio['optionLabel'] != "") { ?>
 													<h6 class="label"><?= stripslashes($portfolio['optionLabel']); ?></h6> <?
-												}
-												if ($portfolio['optionlabelordernumber'] == 3) { ?>
-													<span><?= do_shortcode(stripslashes($portfolio['optionValue'])) ?></span> <?
-												} else { ?>
-													<pre><?= $portfolio['optionValue'] ?></pre> <?
 												} ?>
+												<span><?= do_shortcode(stripslashes($portfolio['optionValue'])) ?></span>
 											</div> <?
 										}
 									}
