@@ -53,7 +53,9 @@ i {
 
 .single-spectacle .chapeau,
 .single-residence .chapeau {
-  font-size: 16px !important;
+  font-size: 18px !important;
+  font-style: italic !important;
+  font-weight: 700 !important;
 }
 
 .single-spectacle .portfolio_prev a,
@@ -93,6 +95,13 @@ i {
   font-size: 17px !important;
   font-style: italic !important;
   font-weight: 400 !important;
+}
+
+blockquote {
+  font-size: 17px !important;
+  font-style: italic !important;
+  font-weight: 700 !important;
+  color: #515151 !important;
 }
 
 /* Footer */
