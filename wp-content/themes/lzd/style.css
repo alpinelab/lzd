@@ -120,3 +120,10 @@ blockquote {
 .flexslider .flex-viewport .slides .slide .image img {
   display: inline-block;
 }
+
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
