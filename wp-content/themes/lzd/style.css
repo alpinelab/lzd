@@ -113,3 +113,10 @@ blockquote {
   color: black !important;
   background-color: white !important;
 }
+
+.flexslider .flex-viewport .slides .slide .image {
+  text-align: center;
+}
+.flexslider .flex-viewport .slides .slide .image img {
+  display: inline-block;
+}
