@@ -723,7 +723,7 @@ while (isset($portfolio_images[$no-1])) {
 if (get_post_type( get_the_ID() ) == 'residence')
 	$array_field = array('Titre', 'Chapeau', 'Texte', 'Équipe & participants', 'Mentions', 'Ils en ont parlé...');
 else
-	$array_field = array('Titre', 'Chapeau', 'Texte', 'Distributions', 'Mentions', 'Ils en ont parlé...');
+	$array_field = array('Titre', 'Chapeau', 'Texte', 'Distributions', 'Mentions', 'Ils en ont parlé...', 'Représentations');
 $i = 0;
 foreach ($array_field as $result)
 {
@@ -733,12 +733,13 @@ foreach ($array_field as $result)
 	else
 		$v = "";
 	echo '<div class="portfolio" rel="'.$i.'" style="display: block;">';
-	echo '<input id="optionlabelordernumber_'.$i.'" type="hidden" name="optionlabelordernumber[]" value="'.$i.'" class="ordernumber" />';
-	echo '<input type="hidden" id="optionLabel_'.$i.'" name="optionLabel[]" value="'.$v.'" />';
-	echo '<div class="input form-field">';
-	echo '<label for="optionValue_'.$i.'"><b>'.$result.'</b></label>';
-	echo '<textarea rows="8" cols="40" id="optionValue_'.$i.'" name="optionValue[]">'.((isset($portfolios[$i-1]['optionValue'])) ? stripslashes($portfolios[$i-1]['optionValue']) : '').'</textarea>';
-	echo'</div>';
+	echo '  <input id="optionlabelordernumber_'.$i.'" type="hidden" name="optionlabelordernumber[]" value="'.$i.'" class="ordernumber" />';
+	echo '  <input type="hidden" id="optionLabel_'.$i.'" name="optionLabel[]" value="'.$v.'" />';
+	echo '  <div class="input form-field">';
+	echo '    <label for="optionValue_'.$i.'"><b>'.$result.'</b></label>';
+	echo '    <textarea rows="8" cols="40" id="optionValue_'.$i.'" name="optionValue[]">'.((isset($portfolios[$i-1]['optionValue'])) ? stripslashes($portfolios[$i-1]['optionValue']) : '').'</textarea>';
+	echo '  </div>';
+	echo '</div>';
 }
 ?>
 </div>
