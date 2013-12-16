@@ -10,12 +10,23 @@ Template: minimum
 @import url("../minimum/style.css");
 @import url("fonts.css");
 
+.drop_down .second ul li {
+  padding: 5px 0 !important;
+}
+
 .portfolio_images img {
   width: auto;
 }
 .portfolio_detail pre {
   font-family: inherit;
   font-size: 13px;
+}
+.portfolio_navigation {
+  height: 24px !important;
+  line-height: 24px !important;
+}
+.title h1 {
+  margin-bottom: 15px;
 }
 
 .article_inner .image img {
@@ -33,10 +44,6 @@ Template: minimum
 .tp-caption.big_description {
   font-style: italic;
   white-space: normal !important;
-}
-
-.home .slider_small .separator.small {
-  display: none !important;
 }
 
 footer {
@@ -57,6 +64,14 @@ footer .left > br:nth-child(2) {
 footer .left > .widget {
   margin-left: 120px;
 }
+footer .right .textwidget a {
+  text-decoration: none !important;
+  font-style: normal !important;
+  color: #515151 !important;
+}
+footer .right .textwidget a:hover {
+  text-decoration: underline !important;
+}
 footer .widget_search input[type="text"] {
   height: 25px !important;
 }
@@ -68,11 +83,20 @@ footer .widget_search input[type="submit"] {
   background-color: white !important;
 }
 
+.slider_small .slide_counter {
+  display: none !important;
+}
 .slider_small .slide_item .image {
   overflow: hidden;
   margin: 0 0 8px 0;
   display: block;
   max-height: 169px;
+}
+.home .slider_small .separator.small {
+  display: none !important;
+}
+.home .slider_small {
+  margin-top: 70px !important;
 }
 
 .bsk-files-category li {
@@ -80,7 +104,6 @@ footer .widget_search input[type="submit"] {
   width: 30%;
   float: left;
   margin: 1em 1.5%;
-  border-radius: 4px;
 }
 .bsk-files-category li:hover {
   background-color : #333;
@@ -100,10 +123,6 @@ footer .widget_search input[type="submit"] {
   margin-bottom: 10em;
 }
 
-.slider_small {
-  margin-top: 70px !important;
-}
-
 blockquote {
   border-left-color: black !important;
 }
@@ -119,6 +138,21 @@ blockquote {
 }
 .flexslider .flex-viewport .slides .slide .image img {
   display: inline-block;
+}
+
+.rev_slider_wrapper .tparrows.tp-leftarrow:hover,
+.rev_slider_wrapper .tparrows.tp-rightarrow:hover,
+.bx-wrapper .bx-controls .bx-prev:hover,
+.bx-wrapper .bx-controls .bx-next:hover {
+  background-color: white !important;
+}
+.rev_slider_wrapper .tparrows.tp-leftarrow:hover,
+.bx-wrapper .bx-controls .bx-prev:hover {
+  background-image: url('img/arrow-left-black.png') !important;
+}
+.rev_slider_wrapper .tparrows.tp-rightarrow:hover,
+.bx-wrapper .bx-controls .bx-next:hover {
+  background-image: url('img/arrow-right-black.png') !important;
 }
 
 .pull-left {

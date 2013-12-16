@@ -19,7 +19,7 @@ i {
 #menu-main_nav .menu-item .menu-item a {
   font-weight: normal !important;
   font-style: normal !important;
-  font-size: 18px !important;
+  font-size: 12px !important;
 }
 #menu-main_nav .menu-item .menu-item:hover a {
   color: #696969 !important;
@@ -76,7 +76,7 @@ i {
 .single-spectacle .portfolio_detail .info h6.label,
 .single-residence .portfolio_detail .info h6.label {
   font-size: 17px !important;
-  font-style: italic !important;
+  font-style: normal !important;
   font-weight: 700 !important;
 }
 
@@ -107,14 +107,17 @@ blockquote {
 /* Footer */
 
 footer .footer_content .menu .menu-item a {
-  font-size: 17px !important;
+  font-size: 13px !important;
   font-style: normal !important;
   font-weight: 400 !important;
 }
 
-footer .footer_content .widget_recent_entries > h5,
+footer .footer_content .widget_recent_entries > h5 {
+  font-size: 16px !important;
+  font-style: normal !important;
+}
 footer .footer_content .widget_recent_entries > ul > li > a {
-  font-size: 17px !important;
+  font-size: 13px !important;
   font-style: normal !important;
 }
 

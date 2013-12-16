@@ -10,11 +10,11 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 
 			<div class="container">
 				<div class="portfolio_navigation">
-					<div class="portfolio_prev"><?php previous_post_link('%link', __('Previous','qode')); ?></div>
+					<div class="portfolio_prev"><?php previous_post_link('%link', 'Précédent'); ?></div>
 					<?php if(get_post_meta(get_the_ID(), "qode_choose-portfolio-list-page", true) != ""){ ?>
 						<div class="portfolio_list"><a href="<?php echo get_permalink(get_post_meta(get_the_ID(), "qode_choose-portfolio-list-page", true)); ?>"><?php echo _e('Portfolio','qode'); ?></a></div>
 					<?php } ?>
-					<div class="portfolio_next"><?php next_post_link('%link', __('Next','qode')); ?></div>
+					<div class="portfolio_next"><?php next_post_link('%link', 'Suivant'); ?></div>
 				</div>
 			</div>
 
