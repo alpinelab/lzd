@@ -27,21 +27,6 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 								echo $portfolios[0]['optionValue'];
 							?>
 						</span></h1>
-						<div class="chapeau">
-							<?php
-							if ($portfolios[1])
-								echo $portfolios[1]['optionValue'];
-							?>
-						</div>
-						<div class="woocommerce_cart_items">
-	 						<?php if($woocommerce->cart->cart_contents_count > 0 ){ ?>
-								<a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'woothemes'); ?>">
-									<img src="<?php bloginfo('template_url'); ?>/img/woocommerce_cart_image.png" /><?php echo sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'woothemes'), $woocommerce->cart->cart_contents_count);?> , <?php echo $woocommerce->cart->get_cart_total(); ?>
-								</a>
-							<?php }else{ ?>
-								<a class="cart-contents" href="" ></a>
-							<?php } ?>
-	 					</div>
 	 					<div class="info" style="padding-bottom:20px;"><span>
 						<?php } ?>
 						<?php
@@ -97,11 +82,13 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 					<div class="column_center" style="text-align:justify">
 						<div class="column_inner">
 							<div class="portfolio_detail portfolio_single_follow"> <?
-								$portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
+								// $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 								if ($portfolios) {
 									usort($portfolios, "comparePortfolioOptions");
 									foreach ($portfolios as $portfolio) {
-										if ($portfolio['optionlabelordernumber'] > 2) { ?>
+										if ($portfolio['optionlabelordernumber'] == 2) { ?>
+											<div class="chapeau"><?= do_shortcode(stripslashes($portfolio['optionValue'])) ?></div> <?
+										} else if ($portfolio['optionlabelordernumber'] > 2) { ?>
 											<div class="info"> <?
 												if($portfolio['optionLabel'] != "") { ?>
 													<h6 class="label"><?= stripslashes($portfolio['optionLabel']); ?></h6> <?

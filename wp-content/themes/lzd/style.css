@@ -24,6 +24,7 @@ Template: minimum
 .portfolio_navigation {
   height: 24px !important;
   line-height: 24px !important;
+  margin-bottom: 15px !important;
 }
 .title h1 {
   margin-bottom: 15px;
@@ -160,4 +161,31 @@ blockquote {
 }
 .pull-right {
   float: right;
+}
+
+table.tablepress {
+  border: solid 2px black !important;
+  margin: 2em auto !important;
+}
+table.tablepress tr {
+  height: 3em !important;
+}
+table.tablepress thead th {
+  color: white !important;
+  background-color: black !important;
+  text-align: center !important;
+  font-size: 17px !important;
+}
+table.tablepress tbody {
+  padding: 5px 0 !important;
+}
+table.tablepress tbody td {
+  border: 0 !important;
+  text-align: center !important;
+  font-size: 15px !important;
+}
+
+.single-spectacle .chapeau,
+.single-residence .chapeau {
+  margin-bottom: 20px;
 }

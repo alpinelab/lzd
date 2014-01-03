@@ -19,7 +19,7 @@ i {
 #menu-main_nav .menu-item .menu-item a {
   font-weight: normal !important;
   font-style: normal !important;
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 #menu-main_nav .menu-item .menu-item:hover a {
   color: #696969 !important;
@@ -53,9 +53,9 @@ i {
 
 .single-spectacle .chapeau,
 .single-residence .chapeau {
-  font-size: 18px !important;
+  font-size: 15px !important;
   font-style: italic !important;
-  font-weight: 700 !important;
+  font-weight: 400 !important;
 }
 
 .single-spectacle .portfolio_prev a,
@@ -75,7 +75,7 @@ i {
 
 .single-spectacle .portfolio_detail .info h6.label,
 .single-residence .portfolio_detail .info h6.label {
-  font-size: 17px !important;
+  font-size: 18px !important;
   font-style: normal !important;
   font-weight: 700 !important;
 }
@@ -147,11 +147,11 @@ footer .footer_content .widget_recent_entries > ul > li > a {
 
 @font-face {
   font-family: 'Akzidenz Grotesk';
-  src: url('fonts/akzidenzgroteskbe-xbdcn-webfont.eot');
-  src: url('fonts/akzidenzgroteskbe-xbdcn-webfont.eot?#iefix') format('embedded-opentype'),
-     url('fonts/akzidenzgroteskbe-xbdcn-webfont.woff') format('woff'),
-     url('fonts/akzidenzgroteskbe-xbdcn-webfont.ttf') format('truetype'),
-     url('fonts/akzidenzgroteskbe-xbdcn-webfont.svg#berthold_akzidenz_grotesk_bRg') format('svg');
+  src: url('fonts/akzidenzgroteskbe-cn-webfont.eot');
+  src: url('fonts/akzidenzgroteskbe-cn-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/akzidenzgroteskbe-cn-webfont.woff') format('woff'),
+    url('fonts/akzidenzgroteskbe-cn-webfont.ttf') format('truetype'),
+    url('fonts/akzidenzgroteskbe-cn-webfont.svg#berthold_akzidenz_grotesk_bRg') format('svg');
   font-weight: bold;
   font-style: normal;
 }
