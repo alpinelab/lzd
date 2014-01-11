@@ -134,6 +134,11 @@ blockquote {
   background-color: white !important;
 }
 
+.post-type-archive-spectacle .isotope .isotope-item .article_inner > p img,
+.post-type-archive-residence .isotope .isotope-item .article_inner > p img {
+  display: none !important;
+}
+
 .flexslider .flex-viewport .slides .slide .image {
   text-align: center;
 }
