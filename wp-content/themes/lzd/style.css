@@ -99,6 +99,14 @@ footer .widget_search input[type="submit"] {
 .home .slider_small {
   margin-top: 70px !important;
 }
+.home .slider_small .slide_item .button:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.home h4 {
+  margin-bottom: 10px !important;
+}
 
 .bsk-files-category li {
   background-color: black;
@@ -170,7 +178,7 @@ blockquote {
 
 table.tablepress {
   border: solid 2px black !important;
-  margin: 2em auto !important;
+  margin: 0 auto !important;
 }
 table.tablepress tr {
   height: 3em !important;
@@ -193,4 +201,14 @@ table.tablepress tbody td {
 .single-spectacle .chapeau,
 .single-residence .chapeau {
   margin-bottom: 20px;
+}
+
+.single-spectacle .chapeau img.pull-left,
+.single-residence .chapeau img.pull-left {
+  margin: 0 20px 20px 0;
+}
+
+.single-spectacle .chapeau img.pull-right,
+.single-residence .chapeau img.pull-right {
+  margin: 0 0 20px 20px;
 }
