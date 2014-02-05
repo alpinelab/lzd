@@ -213,6 +213,6 @@ table.tablepress tbody td {
   margin: 0 0 20px 20px;
 }
 
-.posts_holder3 .article_inner .info {
+.posts_holder3 .article_inner .info .left {
   display: none !important;
 }
