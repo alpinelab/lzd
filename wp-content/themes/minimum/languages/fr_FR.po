@@ -1,0 +1,1176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Minimum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Wed Feb 05 2014 10:20:38 GMT+0100 (CET)\n"
+"PO-Revision-Date: Wed Feb 05 2014 10:26:48 GMT+0100 (CET)\n"
+"Last-Translator: wp_manager <dahu@alpin-lab.com>\n"
+"Language-Team: \n"
+"Language: French\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
+"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
+"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: fr_FR\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../archive.php:24
+msgid "Archive"
+msgstr "Archive"
+
+#: ../archive.php:31 ../contact-page.php:23 ../blog-template2.php:26 ../woocommerce.php:33 ../category.php:15 ../blog-template1.php:26 ../index.php:16 ../functions.php:743 ../blog-template4.php:26 ../blog-template5.php:26 ../page.php:14 ../woocommerce-custom-page.php:19 ../single.php:18 ../blog-template3.php:26 ../single-portfolio_page.php:16 ../home.php:25
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../archive.php:32 ../contact-page.php:24 ../blog-template2.php:27 ../woocommerce.php:34 ../category.php:16 ../blog-template1.php:27 ../index.php:17 ../functions.php:745 ../blog-template4.php:27 ../blog-template5.php:27 ../page.php:15 ../woocommerce-custom-page.php:20 ../single.php:19 ../blog-template3.php:27 ../single-portfolio_page.php:17 ../home.php:26
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d élément"
+msgstr[1] "%d éléments"
+
+#: ../archive.php:74 ../archive.php:124 ../archive.php:162 ../archive.php:207 ../archive.php:248 ../archive.php:312 ../archive.php:362 ../archive.php:404 ../archive.php:453 ../archive.php:494 ../archive.php:567 ../archive.php:613 ../archive.php:648 ../archive.php:693 ../archive.php:730 ../blog-template2.php:77 ../blog-template2.php:129 ../blog-template2.php:191 ../category.php:58 ../category.php:108 ../category.php:145 ../category.php:190 ../category.php:232 ../category.php:296 ../category.php:346 ../category.php:388 ../category.php:437 ../category.php:479 ../category.php:552 ../category.php:602 ../category.php:644 ../category.php:693 ../category.php:734 ../blog-template1.php:69 ../blog-template1.php:117 ../blog-template1.php:174 ../index.php:60 ../index.php:111 ../index.php:148 ../index.php:193 ../index.php:235 ../index.php:298 ../index.php:349 ../index.php:391 ../index.php:440 ../index.php:482 ../index.php:554 ../index.php:605 ../index.php:647 ../index.php:696 ../index.php:738 ../blog-template4.php:72 ../blog-template4.php:131 ../blog-template4.php:199 ../blog-template5.php:62 ../single.php:55 ../single.php:117 ../single.php:189 ../blog-template3.php:72 ../blog-template3.php:132 ../blog-template3.php:200 ../search.php:61 ../search.php:111 ../search.php:148 ../search.php:191 ../search.php:232 ../search.php:296 ../search.php:346 ../search.php:388 ../search.php:437 ../search.php:478 ../search.php:551 ../search.php:601 ../search.php:643 ../search.php:692 ../search.php:733 ../home.php:69 ../home.php:120 ../home.php:157 ../home.php:202 ../home.php:244 ../home.php:308 ../home.php:359 ../home.php:401 ../home.php:450 ../home.php:492 ../home.php:564 ../home.php:615 ../home.php:657 ../home.php:706 ../home.php:748 ../includes/shortcodes.php:1001
+msgid "Posted by"
+msgstr "Publié par"
+
+#: ../archive.php:74 ../archive.php:124 ../archive.php:162 ../archive.php:207 ../archive.php:248 ../archive.php:312 ../archive.php:362 ../archive.php:404 ../archive.php:453 ../archive.php:494 ../archive.php:567 ../archive.php:613 ../archive.php:648 ../archive.php:693 ../archive.php:730 ../blog-template2.php:77 ../blog-template2.php:129 ../blog-template2.php:191 ../category.php:58 ../category.php:108 ../category.php:145 ../category.php:190 ../category.php:232 ../category.php:296 ../category.php:346 ../category.php:388 ../category.php:437 ../category.php:479 ../category.php:552 ../category.php:602 ../category.php:644 ../category.php:693 ../category.php:734 ../blog-template1.php:69 ../blog-template1.php:117 ../blog-template1.php:174 ../index.php:60 ../index.php:111 ../index.php:148 ../index.php:193 ../index.php:235 ../index.php:298 ../index.php:349 ../index.php:391 ../index.php:440 ../index.php:482 ../index.php:554 ../index.php:605 ../index.php:647 ../index.php:696 ../index.php:738 ../blog-template4.php:72 ../blog-template4.php:131 ../blog-template4.php:199 ../blog-template5.php:62 ../single.php:55 ../single.php:117 ../single.php:189 ../blog-template3.php:72 ../blog-template3.php:132 ../blog-template3.php:200 ../search.php:61 ../search.php:111 ../search.php:148 ../search.php:191 ../search.php:232 ../search.php:296 ../search.php:346 ../search.php:388 ../search.php:437 ../search.php:478 ../search.php:551 ../search.php:601 ../search.php:643 ../search.php:692 ../search.php:733 ../home.php:69 ../home.php:120 ../home.php:157 ../home.php:202 ../home.php:244 ../home.php:308 ../home.php:359 ../home.php:401 ../home.php:450 ../home.php:492 ../home.php:564 ../home.php:615 ../home.php:657 ../home.php:706 ../home.php:748 ../includes/shortcodes.php:1001
+msgid "in"
+msgstr "dans"
+
+#: ../archive.php:75 ../archive.php:125 ../archive.php:167 ../archive.php:212 ../archive.php:261 ../archive.php:313 ../archive.php:363 ../archive.php:409 ../archive.php:458 ../archive.php:507 ../archive.php:568 ../archive.php:614 ../archive.php:653 ../archive.php:698 ../archive.php:743 ../blog-template2.php:78 ../blog-template2.php:130 ../blog-template2.php:192 ../category.php:59 ../category.php:109 ../category.php:150 ../category.php:195 ../category.php:245 ../category.php:297 ../category.php:347 ../category.php:393 ../category.php:442 ../category.php:492 ../category.php:553 ../category.php:603 ../category.php:649 ../category.php:698 ../category.php:747 ../blog-template1.php:70 ../blog-template1.php:118 ../blog-template1.php:175 ../index.php:61 ../index.php:112 ../index.php:153 ../index.php:198 ../index.php:248 ../index.php:299 ../index.php:350 ../index.php:396 ../index.php:445 ../index.php:495 ../index.php:555 ../index.php:606 ../index.php:652 ../index.php:701 ../index.php:751 ../blog-template4.php:77 ../blog-template4.php:136 ../blog-template4.php:204 ../blog-template5.php:82 ../single.php:65 ../single.php:127 ../single.php:199 ../blog-template3.php:77 ../blog-template3.php:137 ../blog-template3.php:205 ../search.php:62 ../search.php:112 ../search.php:153 ../search.php:196 ../search.php:245 ../search.php:297 ../search.php:347 ../search.php:393 ../search.php:442 ../search.php:491 ../search.php:552 ../search.php:602 ../search.php:648 ../search.php:697 ../search.php:746 ../home.php:70 ../home.php:121 ../home.php:162 ../home.php:207 ../home.php:257 ../home.php:309 ../home.php:360 ../home.php:406 ../home.php:455 ../home.php:505 ../home.php:565 ../home.php:616 ../home.php:662 ../home.php:711 ../home.php:761 ../includes/shortcodes.php:1020
+msgid "no comments"
+msgstr "aucun commentaire"
+
+#: ../archive.php:75 ../archive.php:125 ../archive.php:167 ../archive.php:212 ../archive.php:261 ../archive.php:313 ../archive.php:363 ../archive.php:409 ../archive.php:458 ../archive.php:507 ../archive.php:568 ../archive.php:614 ../archive.php:653 ../archive.php:698 ../archive.php:743 ../blog-template2.php:78 ../blog-template2.php:130 ../blog-template2.php:192 ../category.php:59 ../category.php:109 ../category.php:150 ../category.php:195 ../category.php:245 ../category.php:297 ../category.php:347 ../category.php:393 ../category.php:442 ../category.php:492 ../category.php:553 ../category.php:603 ../category.php:649 ../category.php:698 ../category.php:747 ../blog-template1.php:70 ../blog-template1.php:118 ../blog-template1.php:175 ../index.php:61 ../index.php:112 ../index.php:153 ../index.php:198 ../index.php:248 ../index.php:299 ../index.php:350 ../index.php:396 ../index.php:445 ../index.php:495 ../index.php:555 ../index.php:606 ../index.php:652 ../index.php:701 ../index.php:751 ../blog-template4.php:77 ../blog-template4.php:136 ../blog-template4.php:204 ../blog-template5.php:82 ../single.php:65 ../single.php:127 ../single.php:199 ../blog-template3.php:77 ../blog-template3.php:137 ../blog-template3.php:205 ../search.php:62 ../search.php:112 ../search.php:153 ../search.php:196 ../search.php:245 ../search.php:297 ../search.php:347 ../search.php:393 ../search.php:442 ../search.php:491 ../search.php:552 ../search.php:602 ../search.php:648 ../search.php:697 ../search.php:746 ../home.php:70 ../home.php:121 ../home.php:162 ../home.php:207 ../home.php:257 ../home.php:309 ../home.php:360 ../home.php:406 ../home.php:455 ../home.php:505 ../home.php:565 ../home.php:616 ../home.php:662 ../home.php:711 ../home.php:761 ../comments.php:45
+msgid "comment"
+msgstr "commentaire"
+
+#: ../archive.php:75 ../archive.php:125 ../archive.php:167 ../archive.php:212 ../archive.php:261 ../archive.php:313 ../archive.php:363 ../archive.php:409 ../archive.php:458 ../archive.php:507 ../archive.php:568 ../archive.php:614 ../archive.php:653 ../archive.php:698 ../archive.php:743 ../blog-template2.php:78 ../blog-template2.php:130 ../blog-template2.php:192 ../category.php:59 ../category.php:109 ../category.php:150 ../category.php:195 ../category.php:245 ../category.php:297 ../category.php:347 ../category.php:393 ../category.php:442 ../category.php:492 ../category.php:553 ../category.php:603 ../category.php:649 ../category.php:698 ../category.php:747 ../blog-template1.php:70 ../blog-template1.php:118 ../blog-template1.php:175 ../index.php:61 ../index.php:112 ../index.php:153 ../index.php:198 ../index.php:248 ../index.php:299 ../index.php:350 ../index.php:396 ../index.php:445 ../index.php:495 ../index.php:555 ../index.php:606 ../index.php:652 ../index.php:701 ../index.php:751 ../blog-template4.php:77 ../blog-template4.php:136 ../blog-template4.php:204 ../blog-template5.php:82 ../single.php:65 ../single.php:127 ../single.php:199 ../blog-template3.php:77 ../blog-template3.php:137 ../blog-template3.php:205 ../search.php:62 ../search.php:112 ../search.php:153 ../search.php:196 ../search.php:245 ../search.php:297 ../search.php:347 ../search.php:393 ../search.php:442 ../search.php:491 ../search.php:552 ../search.php:602 ../search.php:648 ../search.php:697 ../search.php:746 ../home.php:70 ../home.php:121 ../home.php:162 ../home.php:207 ../home.php:257 ../home.php:309 ../home.php:360 ../home.php:406 ../home.php:455 ../home.php:505 ../home.php:565 ../home.php:616 ../home.php:662 ../home.php:711 ../home.php:761
+msgid "comments"
+msgstr "commentaires"
+
+#: ../archive.php:86 ../archive.php:135 ../archive.php:178 ../archive.php:223 ../archive.php:270 ../archive.php:324 ../archive.php:372 ../archive.php:420 ../archive.php:469 ../archive.php:516 ../archive.php:752 ../blog-template2.php:87 ../blog-template2.php:139 ../blog-template2.php:201 ../category.php:70 ../category.php:118 ../category.php:161 ../category.php:206 ../category.php:254 ../category.php:308 ../category.php:356 ../category.php:404 ../category.php:453 ../category.php:501 ../category.php:564 ../category.php:612 ../category.php:660 ../category.php:709 ../category.php:756 ../blog-template1.php:81 ../blog-template1.php:129 ../blog-template1.php:186 ../index.php:72 ../index.php:121 ../index.php:164 ../index.php:209 ../index.php:257 ../index.php:310 ../index.php:359 ../index.php:407 ../index.php:456 ../index.php:504 ../index.php:566 ../index.php:615 ../index.php:663 ../index.php:712 ../index.php:760 ../blog-template4.php:90 ../blog-template4.php:149 ../blog-template4.php:217 ../blog-template5.php:91 ../blog-template3.php:90 ../blog-template3.php:150 ../blog-template3.php:218 ../search.php:73 ../search.php:121 ../search.php:164 ../search.php:207 ../search.php:254 ../search.php:308 ../search.php:356 ../search.php:404 ../search.php:453 ../search.php:500 ../search.php:563 ../search.php:611 ../search.php:659 ../search.php:708 ../search.php:755 ../home.php:81 ../home.php:130 ../home.php:173 ../home.php:218 ../home.php:266 ../home.php:320 ../home.php:369 ../home.php:417 ../home.php:466 ../home.php:514 ../home.php:576 ../home.php:625 ../home.php:673 ../home.php:722 ../home.php:770
+msgid "No posts were found."
+msgstr "Aucun article n'a été trouvé."
+
+#: ../contact-page.php:54 ../contact-page.php:108
+msgid "Contact Form"
+msgstr "Formulaire de contact"
+
+#: ../contact-page.php:56 ../contact-page.php:110
+msgid "Your Full Name *"
+msgstr "Nom complet *"
+
+#: ../contact-page.php:57 ../contact-page.php:111
+msgid "Email *"
+msgstr "Email *"
+
+#: ../contact-page.php:61 ../contact-page.php:115
+msgid "Web site"
+msgstr "Site web"
+
+#: ../contact-page.php:63 ../contact-page.php:117
+msgid "Message"
+msgstr "Message"
+
+#: ../contact-page.php:89 ../contact-page.php:142
+msgid "Send Message"
+msgstr "Envoyer"
+
+#: ../contact-page.php:169
+msgid " Required"
+msgstr "Champs requis"
+
+#: ../contact-page.php:181
+msgid " Invalid"
+msgstr "Invalide"
+
+#: ../contact-page.php:215
+msgid "THANK YOU!"
+msgstr "MERCI !"
+
+#: ../contact-page.php:215
+msgid "Your email was successfully sent. We will contact you as soon as possible."
+msgstr "Votre email a été envoyé avec succès. Nous vous recontacterons dès que possible."
+
+#: ../contact-page.php:227
+msgid "Invalid Captcha"
+msgstr "Captcha invalide"
+
+#: ../contact-page.php:236
+msgid "Email server problem"
+msgstr "Problème avec le serveur mail"
+
+#: ../functions.php:196
+msgid "Top Navigation"
+msgstr ""
+
+#: ../functions.php:245
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:380 ../single-portfolio_page.php:118 ../single-portfolio_page.php:211 ../single-portfolio_page.php:303 ../single-portfolio_page.php:314 ../single-portfolio_page.php:403 ../single-portfolio_page.php:495 ../single-portfolio_page.php:588 ../single-portfolio_page.php:679 ../single-portfolio_page.php:690 ../single-portfolio_page.php:780
+msgid "Portfolio"
+msgstr ""
+
+#: ../functions.php:381
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../functions.php:382
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../functions.php:383
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../functions.php:384
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../functions.php:406 ../functions.php:416
+msgid "Portfolio Categories"
+msgstr ""
+
+#: ../functions.php:407
+msgid "Portfolio Category"
+msgstr ""
+
+#: ../functions.php:408
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: ../functions.php:409
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: ../functions.php:410
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: ../functions.php:411
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: ../functions.php:412
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: ../functions.php:413
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: ../functions.php:414
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: ../functions.php:415
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: ../functions.php:645 ../includes/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../functions.php:646 ../includes/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions.php:647 ../includes/class-tgm-plugin-activation.php:166
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions.php:648
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions.php:649 ../includes/class-tgm-plugin-activation.php:168
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:650 ../includes/class-tgm-plugin-activation.php:169
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:651 ../includes/class-tgm-plugin-activation.php:170
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:652 ../includes/class-tgm-plugin-activation.php:171
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:653 ../includes/class-tgm-plugin-activation.php:172
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:654 ../includes/class-tgm-plugin-activation.php:173
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:655 ../includes/class-tgm-plugin-activation.php:174
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:656 ../includes/class-tgm-plugin-activation.php:175
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:657 ../includes/class-tgm-plugin-activation.php:176
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:658 ../includes/class-tgm-plugin-activation.php:177
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../functions.php:659 ../includes/class-tgm-plugin-activation.php:178 ../includes/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../functions.php:660 ../includes/class-tgm-plugin-activation.php:179 ../includes/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions.php:661
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../single-portfolio_page.php:109 ../single-portfolio_page.php:202 ../single-portfolio_page.php:295 ../single-portfolio_page.php:395 ../single-portfolio_page.php:486 ../single-portfolio_page.php:579 ../single-portfolio_page.php:671 ../single-portfolio_page.php:772
+msgid "About"
+msgstr ""
+
+#: ../single-portfolio_page.php:116 ../single-portfolio_page.php:209 ../single-portfolio_page.php:301 ../single-portfolio_page.php:312 ../single-portfolio_page.php:401 ../single-portfolio_page.php:493 ../single-portfolio_page.php:586 ../single-portfolio_page.php:677 ../single-portfolio_page.php:688 ../single-portfolio_page.php:778
+msgid "Previous"
+msgstr ""
+
+#: ../single-portfolio_page.php:120 ../single-portfolio_page.php:213 ../single-portfolio_page.php:305 ../single-portfolio_page.php:316 ../single-portfolio_page.php:405 ../single-portfolio_page.php:497 ../single-portfolio_page.php:590 ../single-portfolio_page.php:681 ../single-portfolio_page.php:692 ../single-portfolio_page.php:782
+msgid "Next"
+msgstr ""
+
+#: ../search.php:19
+msgid "Search for:"
+msgstr ""
+
+#: ../comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:27
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: ../comments.php:41
+msgid "Post a comment"
+msgstr ""
+
+#: ../comments.php:42
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:43
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:44
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:49
+msgid "name"
+msgstr ""
+
+#: ../comments.php:50
+msgid "website"
+msgstr ""
+
+#: ../comments.php:51
+msgid "email"
+msgstr ""
+
+#: ../js/default_dynamic.php:173
+msgid "Comment has been sent!"
+msgstr ""
+
+#: ../includes/shortcodes.php:535
+msgid "Filter"
+msgstr ""
+
+#: ../includes/shortcodes.php:537
+msgid "All"
+msgstr ""
+
+#: ../includes/shortcodes.php:605 ../includes/shortcodes.php:1054
+msgid "View"
+msgstr ""
+
+#: ../includes/shortcodes.php:610 ../includes/shortcodes.php:1039 ../includes/shortcodes.php:1059
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../includes/shortcodes.php:707 ../includes/shortcodes.php:801
+msgid "Read"
+msgstr ""
+
+#: ../includes/shortcodes.php:1022
+msgid " comments"
+msgstr ""
+
+#: ../includes/shortcodes.php:1024
+msgid "one comment"
+msgstr ""
+
+#: ../includes/shortcodes.php:1027
+msgid "Comments are off for this post."
+msgstr ""
+
+#: ../includes/qode-options.php:267
+msgid "Qode"
+msgstr ""
+
+#: ../includes/qode-options.php:274
+msgid "Options"
+msgstr ""
+
+#: ../includes/qode-options.php:285
+msgid "Settings saved."
+msgstr ""
+
+#: ../includes/qode-options.php:292
+msgid "version %1$s"
+msgstr ""
+
+#: ../includes/qode-options.php:307 ../includes/qode-options.php:310
+msgid "Reset to defaults"
+msgstr ""
+
+#: ../includes/qode-options.php:315 ../includes/qode-options.php:2333
+msgid "Save Changes"
+msgstr ""
+
+#: ../includes/qode-options.php:370
+msgid "First main color"
+msgstr ""
+
+#: ../includes/qode-options.php:374
+msgid "Choose first main color"
+msgstr ""
+
+#: ../includes/qode-options.php:378
+msgid "Second main color"
+msgstr ""
+
+#: ../includes/qode-options.php:382
+msgid "Choose second main color"
+msgstr ""
+
+#: ../includes/qode-options.php:386
+msgid "Third main color"
+msgstr ""
+
+#: ../includes/qode-options.php:390
+msgid "Choose third main color"
+msgstr ""
+
+#: ../includes/qode-options.php:394 ../includes/qode-options.php:1897 ../includes/qode-options.php:1976
+msgid "Background color"
+msgstr ""
+
+#: ../includes/qode-options.php:398
+msgid "Choose background color"
+msgstr ""
+
+#: ../includes/qode-options.php:402
+msgid "Highlight color"
+msgstr ""
+
+#: ../includes/qode-options.php:406
+msgid "Choose highlight color"
+msgstr ""
+
+#: ../includes/qode-options.php:410
+msgid "Selection color"
+msgstr ""
+
+#: ../includes/qode-options.php:414
+msgid "Choose selection color"
+msgstr ""
+
+#: ../includes/qode-options.php:418
+msgid "Pattern background image"
+msgstr ""
+
+#: ../includes/qode-options.php:427
+msgid "Favicon image"
+msgstr ""
+
+#: ../includes/qode-options.php:436
+msgid "Google fonts"
+msgstr ""
+
+#: ../includes/qode-options.php:445
+msgid "Choose Font"
+msgstr ""
+
+#: ../includes/qode-options.php:449
+msgid "Page transition"
+msgstr ""
+
+#: ../includes/qode-options.php:457
+msgid ""
+"In order for animation to work properly, you must choose \"Post name\" in "
+"permalinks settings"
+msgstr ""
+
+#: ../includes/qode-options.php:461
+msgid "Responsiveness"
+msgstr ""
+
+#: ../includes/qode-options.php:470
+msgid "Google Analytics Account ID"
+msgstr ""
+
+#: ../includes/qode-options.php:476
+msgid "List of internal URLs loaded without AJAX (separated with comma)"
+msgstr ""
+
+#: ../includes/qode-options.php:485
+msgid "Custom css"
+msgstr ""
+
+#: ../includes/qode-options.php:494
+msgid "Custom js"
+msgstr ""
+
+#: ../includes/qode-options.php:499
+msgid "jQuery selector is \"$j\" because of the conflict mode"
+msgstr ""
+
+#: ../includes/qode-options.php:503
+msgid "Meta Keywords"
+msgstr ""
+
+#: ../includes/qode-options.php:511
+msgid "Meta Description"
+msgstr ""
+
+#: ../includes/qode-options.php:519
+msgid "Disable Qode SEO"
+msgstr ""
+
+#: ../includes/qode-options.php:528
+msgid "Demo Toolbar"
+msgstr ""
+
+#: ../includes/qode-options.php:546
+msgid "H1 style"
+msgstr ""
+
+#: ../includes/qode-options.php:549 ../includes/qode-options.php:599 ../includes/qode-options.php:650 ../includes/qode-options.php:701 ../includes/qode-options.php:752 ../includes/qode-options.php:803 ../includes/qode-options.php:855 ../includes/qode-options.php:910 ../includes/qode-options.php:968 ../includes/qode-options.php:1114 ../includes/qode-options.php:1170 ../includes/qode-options.php:1225 ../includes/qode-options.php:1279 ../includes/qode-options.php:1294 ../includes/qode-options.php:1387 ../includes/qode-options.php:1438 ../includes/qode-options.php:1490 ../includes/qode-options.php:1559 ../includes/qode-options.php:1610 ../includes/qode-options.php:1679 ../includes/qode-options.php:1730 ../includes/qode-options.php:1791 ../includes/qode-options.php:1813 ../includes/qode-options.php:1836 ../includes/qode-options.php:1913 ../includes/qode-options.php:2032 ../includes/qode-options.php:2083
+msgid "Color"
+msgstr ""
+
+#: ../includes/qode-options.php:554 ../includes/qode-options.php:604 ../includes/qode-options.php:655 ../includes/qode-options.php:706 ../includes/qode-options.php:757 ../includes/qode-options.php:808 ../includes/qode-options.php:860 ../includes/qode-options.php:973 ../includes/qode-options.php:1124 ../includes/qode-options.php:1180 ../includes/qode-options.php:1235 ../includes/qode-options.php:1392 ../includes/qode-options.php:1443 ../includes/qode-options.php:1495 ../includes/qode-options.php:1564 ../includes/qode-options.php:1615 ../includes/qode-options.php:1684 ../includes/qode-options.php:1735 ../includes/qode-options.php:1846 ../includes/qode-options.php:1918 ../includes/qode-options.php:2037 ../includes/qode-options.php:2088
+msgid "Font family"
+msgstr ""
+
+#: ../includes/qode-options.php:563 ../includes/qode-options.php:613 ../includes/qode-options.php:664 ../includes/qode-options.php:715 ../includes/qode-options.php:766 ../includes/qode-options.php:817 ../includes/qode-options.php:869 ../includes/qode-options.php:982 ../includes/qode-options.php:1133 ../includes/qode-options.php:1189 ../includes/qode-options.php:1244 ../includes/qode-options.php:1401 ../includes/qode-options.php:1452 ../includes/qode-options.php:1504 ../includes/qode-options.php:1573 ../includes/qode-options.php:1624 ../includes/qode-options.php:1693 ../includes/qode-options.php:1744 ../includes/qode-options.php:1855 ../includes/qode-options.php:1927 ../includes/qode-options.php:2046 ../includes/qode-options.php:2097
+msgid "Font size (px)"
+msgstr ""
+
+#: ../includes/qode-options.php:567 ../includes/qode-options.php:617 ../includes/qode-options.php:668 ../includes/qode-options.php:719 ../includes/qode-options.php:770 ../includes/qode-options.php:821 ../includes/qode-options.php:873 ../includes/qode-options.php:986 ../includes/qode-options.php:1137 ../includes/qode-options.php:1193 ../includes/qode-options.php:1248 ../includes/qode-options.php:1405 ../includes/qode-options.php:1456 ../includes/qode-options.php:1508 ../includes/qode-options.php:1577 ../includes/qode-options.php:1628 ../includes/qode-options.php:1697 ../includes/qode-options.php:1748 ../includes/qode-options.php:1859 ../includes/qode-options.php:1931 ../includes/qode-options.php:2050 ../includes/qode-options.php:2101
+msgid "Line height (px)"
+msgstr ""
+
+#: ../includes/qode-options.php:571 ../includes/qode-options.php:621 ../includes/qode-options.php:672 ../includes/qode-options.php:723 ../includes/qode-options.php:774 ../includes/qode-options.php:825 ../includes/qode-options.php:877 ../includes/qode-options.php:920 ../includes/qode-options.php:990 ../includes/qode-options.php:1141 ../includes/qode-options.php:1197 ../includes/qode-options.php:1252 ../includes/qode-options.php:1409 ../includes/qode-options.php:1460 ../includes/qode-options.php:1512 ../includes/qode-options.php:1581 ../includes/qode-options.php:1632 ../includes/qode-options.php:1701 ../includes/qode-options.php:1752 ../includes/qode-options.php:1863 ../includes/qode-options.php:1935 ../includes/qode-options.php:2054 ../includes/qode-options.php:2105
+msgid "Font style"
+msgstr ""
+
+#: ../includes/qode-options.php:580 ../includes/qode-options.php:630 ../includes/qode-options.php:681 ../includes/qode-options.php:732 ../includes/qode-options.php:783 ../includes/qode-options.php:834 ../includes/qode-options.php:886 ../includes/qode-options.php:929 ../includes/qode-options.php:999 ../includes/qode-options.php:1150 ../includes/qode-options.php:1206 ../includes/qode-options.php:1260 ../includes/qode-options.php:1418 ../includes/qode-options.php:1469 ../includes/qode-options.php:1521 ../includes/qode-options.php:1590 ../includes/qode-options.php:1641 ../includes/qode-options.php:1710 ../includes/qode-options.php:1761 ../includes/qode-options.php:1872 ../includes/qode-options.php:1944 ../includes/qode-options.php:2063 ../includes/qode-options.php:2114
+msgid "Font weight"
+msgstr ""
+
+#: ../includes/qode-options.php:596
+msgid "H2 style"
+msgstr ""
+
+#: ../includes/qode-options.php:647
+msgid "H3 style"
+msgstr ""
+
+#: ../includes/qode-options.php:698
+msgid "H4 style"
+msgstr ""
+
+#: ../includes/qode-options.php:749
+msgid "H5 style"
+msgstr ""
+
+#: ../includes/qode-options.php:800
+msgid "H6 style"
+msgstr ""
+
+#: ../includes/qode-options.php:852 ../includes/qode-options.php:1435 ../includes/qode-options.php:1607 ../includes/qode-options.php:1727 ../includes/qode-options.php:2080
+msgid "Text style"
+msgstr ""
+
+#: ../includes/qode-options.php:901
+msgid "Top/Bottom margin (px)"
+msgstr ""
+
+#: ../includes/qode-options.php:907
+msgid "Link style"
+msgstr ""
+
+#: ../includes/qode-options.php:915 ../includes/qode-options.php:1119 ../includes/qode-options.php:1175 ../includes/qode-options.php:1230 ../includes/qode-options.php:1841
+msgid "Hover color"
+msgstr ""
+
+#: ../includes/qode-options.php:944
+msgid "Font decoration"
+msgstr ""
+
+#: ../includes/qode-options.php:956
+msgid "Page title style"
+msgstr ""
+
+#: ../includes/qode-options.php:959 ../includes/qode-options.php:1070
+msgid "Position"
+msgstr ""
+
+#: ../includes/qode-options.php:1025
+msgid "Logo"
+msgstr ""
+
+#: ../includes/qode-options.php:1028 ../includes/qode-options.php:1308
+msgid "Logo image"
+msgstr ""
+
+#: ../includes/qode-options.php:1034
+msgid "Top (px)"
+msgstr ""
+
+#: ../includes/qode-options.php:1038
+msgid "Left (px)"
+msgstr ""
+
+#: ../includes/qode-options.php:1044
+msgid "Center logo"
+msgstr ""
+
+#: ../includes/qode-options.php:1053
+msgid "Header height (px)"
+msgstr ""
+
+#: ../includes/qode-options.php:1056
+msgid "Set header height"
+msgstr ""
+
+#: ../includes/qode-options.php:1060
+msgid "Main menu"
+msgstr ""
+
+#: ../includes/qode-options.php:1063
+msgid "Hide menu"
+msgstr ""
+
+#: ../includes/qode-options.php:1079
+msgid "Magic panes height (px)"
+msgstr ""
+
+#: ../includes/qode-options.php:1083
+msgid "Magic pane hover color"
+msgstr ""
+
+#: ../includes/qode-options.php:1088
+msgid "Magic pane active color"
+msgstr ""
+
+#: ../includes/qode-options.php:1095
+msgid "Dropdown main menu"
+msgstr ""
+
+#: ../includes/qode-options.php:1102
+msgid "Choose drop down menu"
+msgstr ""
+
+#: ../includes/qode-options.php:1106
+msgid "Dropdown separation number (only for \"Dropdown 1\" type, default is 6)"
+msgstr ""
+
+#: ../includes/qode-options.php:1111
+msgid "1st level menu style"
+msgstr ""
+
+#: ../includes/qode-options.php:1167
+msgid "2nd level menu style"
+msgstr ""
+
+#: ../includes/qode-options.php:1222
+msgid "3rd level menu style"
+msgstr ""
+
+#: ../includes/qode-options.php:1276 ../includes/qode-options.php:1291
+msgid "Separator style"
+msgstr ""
+
+#: ../includes/qode-options.php:1284 ../includes/qode-options.php:1299 ../includes/qode-options.php:1796 ../includes/qode-options.php:1818
+msgid "Thickness (px)"
+msgstr ""
+
+#: ../includes/qode-options.php:1305
+msgid "Footer logo"
+msgstr ""
+
+#: ../includes/qode-options.php:1325
+msgid "Hide footer logo"
+msgstr ""
+
+#: ../includes/qode-options.php:1334
+msgid "Show footer widget area"
+msgstr ""
+
+#: ../includes/qode-options.php:1355 ../includes/qode-options.php:1540 ../includes/qode-options.php:1660
+msgid "Slider options"
+msgstr ""
+
+#: ../includes/qode-options.php:1358
+msgid "Auto transition"
+msgstr ""
+
+#: ../includes/qode-options.php:1366
+msgid "Transition effect"
+msgstr ""
+
+#: ../includes/qode-options.php:1374 ../includes/qode-options.php:1551 ../includes/qode-options.php:1671
+msgid "Transition speed (milliseconds)"
+msgstr ""
+
+#: ../includes/qode-options.php:1378
+msgid "Transition timeout (milliseconds)"
+msgstr ""
+
+#: ../includes/qode-options.php:1384 ../includes/qode-options.php:1487 ../includes/qode-options.php:1556 ../includes/qode-options.php:1676 ../includes/qode-options.php:2029
+msgid "Title style"
+msgstr ""
+
+#: ../includes/qode-options.php:1543 ../includes/qode-options.php:1663
+msgid "Move slides"
+msgstr ""
+
+#: ../includes/qode-options.php:1788
+msgid "Big separator"
+msgstr ""
+
+#: ../includes/qode-options.php:1800 ../includes/qode-options.php:1822
+msgid "Top margin (px)"
+msgstr ""
+
+#: ../includes/qode-options.php:1804 ../includes/qode-options.php:1826
+msgid "Bottom margin (px)"
+msgstr ""
+
+#: ../includes/qode-options.php:1810
+msgid "Small separator"
+msgstr ""
+
+#: ../includes/qode-options.php:1833
+msgid "Button style"
+msgstr ""
+
+#: ../includes/qode-options.php:1888 ../includes/qode-options.php:1968
+msgid "Size"
+msgstr ""
+
+#: ../includes/qode-options.php:1902
+msgid "Background hover color"
+msgstr ""
+
+#: ../includes/qode-options.php:1910
+msgid "Message box style"
+msgstr ""
+
+#: ../includes/qode-options.php:1960
+msgid "Border"
+msgstr ""
+
+#: ../includes/qode-options.php:1991
+msgid "Parallax speed"
+msgstr ""
+
+#: ../includes/qode-options.php:1999
+msgid "Parallax min height (px)"
+msgstr ""
+
+#: ../includes/qode-options.php:2003
+msgid "Set min-height for last two stages"
+msgstr ""
+
+#: ../includes/qode-options.php:2016
+msgid "Portfolio style"
+msgstr ""
+
+#: ../includes/qode-options.php:2139
+msgid "Pagination"
+msgstr ""
+
+#: ../includes/qode-options.php:2146
+msgid "Choose Paagination"
+msgstr ""
+
+#: ../includes/qode-options.php:2150
+msgid "Blog list style"
+msgstr ""
+
+#: ../includes/qode-options.php:2162
+msgid "Category blog sidebar"
+msgstr ""
+
+#: ../includes/qode-options.php:2172
+msgid "Choose category sidebar"
+msgstr ""
+
+#: ../includes/qode-options.php:2176
+msgid "Hide comments"
+msgstr ""
+
+#: ../includes/qode-options.php:2185
+msgid "Number of characters"
+msgstr ""
+
+#: ../includes/qode-options.php:2188
+msgid "Number of characters in blog listing"
+msgstr ""
+
+#: ../includes/qode-options.php:2200
+msgid "Mail send to"
+msgstr ""
+
+#: ../includes/qode-options.php:2206
+msgid "Enable Contact Form"
+msgstr ""
+
+#: ../includes/qode-options.php:2215
+msgid "Hide Website Field"
+msgstr ""
+
+#: ../includes/qode-options.php:2224
+msgid "Email From"
+msgstr ""
+
+#: ../includes/qode-options.php:2230
+msgid "Email Subject"
+msgstr ""
+
+#: ../includes/qode-options.php:2236
+msgid "Use reCaptcha"
+msgstr ""
+
+#: ../includes/qode-options.php:2245
+msgid "ReCaptcha public key"
+msgstr ""
+
+#: ../includes/qode-options.php:2252
+msgid "ReCaptcha private key"
+msgstr ""
+
+#: ../includes/qode-options.php:2258
+msgid "Heading above contact form"
+msgstr ""
+
+#: ../includes/qode-options.php:2264
+msgid "Enable Google Map"
+msgstr ""
+
+#: ../includes/qode-options.php:2274
+msgid "Google map iframe"
+msgstr ""
+
+#: ../includes/qode-options.php:2289
+msgid "Title"
+msgstr ""
+
+#: ../includes/qode-options.php:2295
+msgid "Subtitle"
+msgstr ""
+
+#: ../includes/qode-options.php:2301
+msgid "Text"
+msgstr ""
+
+#: ../includes/qode-options.php:2307
+msgid "Back to home label"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:180
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:517 ../includes/class-tgm-plugin-activation.php:517 ../includes/class-tgm-plugin-activation.php:2058 ../includes/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:545
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1281
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1544
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1830
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1956
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1956 ../includes/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1956 ../includes/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1958
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1963
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1964
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1965
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../includes/class-tgm-plugin-activation.php:1967
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../widgets/relate_posts_widget.php:8
+msgid "Related Posts Widget"
+msgstr ""
+
+#: ../widgets/relate_posts_widget.php:15
+msgid "Related Posts"
+msgstr ""
+
+#: ../widgets/relate_posts_widget.php:75
+msgid "Title:"
+msgstr ""
+
+#: ../widgets/relate_posts_widget.php:79
+msgid "Number of posts:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:18
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/merchant "
+"has declined your transaction."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:28
+msgid "Pay"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:30
+msgid "My Account"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:36 ../woocommerce/checkout/thankyou.php:67
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:40
+msgid "Order:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:44
+msgid "Date:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:48
+msgid "Total:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:53
+msgid "Payment method:"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:26
+msgid "I'm a Returning Customer"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:29
+msgid "Username or email"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:33 ../woocommerce/myaccount/form-login.php:85
+msgid "Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:40
+msgid "Login"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:50
+msgid "Lost Password?"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:60
+msgid "I'm a New Customer"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:66
+msgid "Username"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:78
+msgid "Email"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:89
+msgid "Re-enter password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:101
+msgid "Register"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:27
+msgid "Billing Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:27
+msgid "Shipping Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:43
+msgid "Save Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:24
+msgid "Username or email:"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:31
+msgid "New password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:35
+msgid "Re-enter new password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:45
+msgid "Reset Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:45
+msgid "Save"
+msgstr ""
+
+#: ../woocommerce/myaccount/my-account.php:20
+msgid ""
+"Hello, <strong>%s</strong>. From your account dashboard you can view your "
+"recent orders, manage your shipping and billing addresses and <a "
+"href=\"%s\">change your password</a>."
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:14
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:18
+msgid "&larr; Return To Shop"
+msgstr ""
+
+#: ../archive.php:72 ../archive.php:125 ../archive.php:168 ../archive.php:213 ../archive.php:261 ../archive.php:310 ../archive.php:363 ../archive.php:410 ../archive.php:459 ../archive.php:507 ../archive.php:565 ../archive.php:614 ../archive.php:654 ../archive.php:699 ../archive.php:743 ../blog-template2.php:78 ../blog-template2.php:130 ../blog-template2.php:192 ../category.php:56 ../category.php:109 ../category.php:151 ../category.php:196 ../category.php:245 ../category.php:294 ../category.php:347 ../category.php:394 ../category.php:443 ../category.php:492 ../category.php:550 ../category.php:603 ../category.php:650 ../category.php:699 ../category.php:747 ../blog-template1.php:67 ../blog-template1.php:115 ../blog-template1.php:172 ../index.php:58 ../index.php:112 ../index.php:154 ../index.php:199 ../index.php:248 ../index.php:296 ../index.php:350 ../index.php:397 ../index.php:446 ../index.php:495 ../index.php:552 ../index.php:606 ../index.php:653 ../index.php:702 ../index.php:751 ../blog-template4.php:78 ../blog-template4.php:137 ../blog-template4.php:205 ../blog-template5.php:82 ../blog-template3.php:78 ../blog-template3.php:138 ../blog-template3.php:206 ../search.php:59 ../search.php:112 ../search.php:154 ../search.php:197 ../search.php:245 ../search.php:294 ../search.php:347 ../search.php:394 ../search.php:443 ../search.php:491 ../search.php:549 ../search.php:602 ../search.php:649 ../search.php:698 ../search.php:746 ../home.php:67 ../home.php:121 ../home.php:163 ../home.php:208 ../home.php:257 ../home.php:306 ../home.php:360 ../home.php:407 ../home.php:456 ../home.php:505 ../home.php:562 ../home.php:616 ../home.php:663 ../home.php:712 ../home.php:761 ../includes/shortcodes.php:1031
+msgid "READ MORE"
+msgstr "EN SAVOIR PLUS"
