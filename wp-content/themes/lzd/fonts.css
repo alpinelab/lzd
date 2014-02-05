@@ -8,6 +8,15 @@ i {
   font-weight: 400 !important;
 }
 
+b {
+  font-weight: 700 !important;
+}
+
+h6 {
+  font-style: normal !important;
+  clear: both !important;
+}
+
 
 /* Menu */
 
@@ -42,12 +51,22 @@ i {
 }
 
 
-/* Blog */
+/* Home Blog widget */
 
 .posts_holder3 article .article_inner > h2 > a {
   font-weight: 700 !important;
 }
 
+/* Blog */
+
+.single-post .title,
+.single-post .date,
+.single-post .info,
+.single-post .comment_holder,
+.single-post .comment_pager,
+.single-post .comment_form {
+  display: none !important;
+}
 
 /* Residence & Spectacle single pages */
 
@@ -112,7 +131,8 @@ footer .footer_content .menu .menu-item a {
   font-weight: 400 !important;
 }
 
-footer .footer_content .widget_recent_entries > h5 {
+footer .footer_content .widget_recent_entries > h5,
+footer .footer_content .widget_nav_menu > h5 {
   font-size: 16px !important;
   font-style: normal !important;
 }

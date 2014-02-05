@@ -24,7 +24,7 @@ Template: minimum
 .portfolio_navigation {
   height: 24px !important;
   line-height: 24px !important;
-  margin-bottom: 15px !important;
+  margin-bottom: 45px !important;
 }
 .title h1 {
   margin-bottom: 15px;
@@ -211,4 +211,8 @@ table.tablepress tbody td {
 .single-spectacle .chapeau img.pull-right,
 .single-residence .chapeau img.pull-right {
   margin: 0 0 20px 20px;
+}
+
+.posts_holder3 .article_inner .info {
+  display: none !important;
 }

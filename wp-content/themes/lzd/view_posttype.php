@@ -88,13 +88,13 @@ $portfolios = get_post_meta(get_the_ID(), "qode_portfolios", true);
 									foreach ($portfolios as $portfolio) {
 										if ($portfolio['optionlabelordernumber'] == 2) { ?>
 											<div class="chapeau"><?= do_shortcode(stripslashes($portfolio['optionValue'])) ?></div> <?
-										} else if ($portfolio['optionlabelordernumber'] > 2) { ?>
-											<div class="info"> <?
-												if($portfolio['optionLabel'] != "") { ?>
-													<h6 class="label"><?= stripslashes($portfolio['optionLabel']); ?></h6> <?
-												} ?>
-												<span><?= do_shortcode(stripslashes($portfolio['optionValue'])) ?></span>
-											</div> <?
+										} else if ($portfolio['optionlabelordernumber'] > 2) {
+											if($portfolio['optionLabel'] != "" && $portfolio['optionValue'] != "") { ?>
+												<div class="info">
+													<h6 class="label"><?= stripslashes($portfolio['optionLabel']); ?></h6>
+													<span><?= do_shortcode(stripslashes($portfolio['optionValue'])) ?></span>
+												</div> <?
+											}
 										}
 									}
 								} ?>
