@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-12-17 08:34:40+0000\n"
+"PO-Revision-Date: 2014-01-24 19:42:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -453,7 +453,7 @@ msgstr "Nouvelles de WordPress"
 
 #: wp-admin/includes/dashboard.php:230
 msgid "WordPress %1$s running %2$s theme."
-msgstr "WordPress %1$s avec le theme %2$s."
+msgstr "WordPress %1$s avec le thème %2$s."
 
 #: wp-admin/includes/dashboard.php:363
 msgid "What&#8217;s on your mind?"
@@ -557,7 +557,7 @@ msgstr "Pour en savoir plus sur la version %s, lisez l'écran À Propos de WordP
 
 #: wp-admin/includes/class-wp-upgrader.php:2219
 msgid "Please update your site at %1$s to WordPress %2$s."
-msgstr "Veuillez mettre à jour votre site à l'adresse %s1$s pour le passer à WordPress %2$s."
+msgstr "Veuillez mettre à jour votre site à l'adresse %1$s pour le passer à WordPress %2$s."
 
 #: wp-admin/includes/class-wp-upgrader.php:2226
 msgid "We tried but were unable to update your site automatically."
@@ -909,7 +909,7 @@ msgstr[1] "%s pages récupérées depuis la Corbeille."
 
 #: wp-admin/revision.php:107
 msgid "Compare two different revisions by <strong>selecting the &#8220;Compare any two revisions&#8221; box</strong> to the side."
-msgstr "Comparez deux révisions différentes en <strong>cochant  la case &laquo;&nbsp;Comparer n&rsquo;importe quelles révisions</strong> sur le côté."
+msgstr "Comparez deux révisions différentes en <strong>cochant  la case &laquo;&nbsp;Comparer n&rsquo;importe quelles révisions&nbsp;&raquo;</strong> sur le côté."
 
 #: wp-admin/includes/template.php:1897
 msgid "Compare Revisions"
@@ -1203,7 +1203,7 @@ msgstr "Chaque menu personnalisé peut contenir un mélange de liens vers des pa
 
 #: wp-admin/nav-menus.php:503
 msgid "Add one or several items at once by <strong>selecting the checkbox next to each item and clicking Add to Menu</strong>"
-msgstr "Ajoutez un ou plusieurs éléments à la fois en <strong>cochant la case à côté de chaque élément puis en cliquant sur &laquo;&nsbp;Ajouter au menu&nbsp;&raquo;</strong>"
+msgstr "Ajoutez un ou plusieurs éléments à la fois en <strong>cochant la case à côté de chaque élément puis en cliquant sur &laquo;&nbsp;Ajouter au menu&nbsp;&raquo;</strong>"
 
 #: wp-admin/nav-menus.php:504
 msgid "To add a custom link, <strong>expand the Links section, enter a URL and link text, and click Add to Menu</strong>"
@@ -5142,7 +5142,7 @@ msgstr "Retourner aux mises à jour de WordPress"
 
 #: wp-admin/edit-form-advanced.php:320
 msgid "<strong>Publish</strong> - You can set the terms of publishing your post in the Publish box. For Status, Visibility, and Publish (immediately), click on the Edit link to reveal more options. Visibility includes options for password-protecting a post or making it stay at the top of your blog indefinitely (sticky). Publish (immediately) allows you to set a future or past date and time, so you can schedule a post to be published in the future or backdate a post."
-msgstr "<strong>Publier</strong> - Vous pouvez définir la manière dont votre article est publié dans le bloc &laquo;&nsbp;Publier&nbsp;&raquo;. Pour &laquo;&nbsp;État&nbsp;&raquo;, &laquo;&nbsp;Visibilité&nbsp;&raquo;, &laquo;&nbsp;Format&nbsp;&raquo; et &laquo;&nbsp;Publier (immédiatement)&nbsp;&raquo;, un clic sur le lien &laquo;&nbsp;Modifier&nbsp;&raquo; affichera plus d&rsquo;options. &laquo;&nbsp;Visibilité&nbsp;&raquo; inclut des options pour protéger l&rsquo;article avec un mot de passe ou faire en sorte qu&rsquo;il reste en tête de page indéfiniment. &laquo;&nbsp;Publier (immédiatement)&nbsp;&raquo; vous permet de programmer la publication de votre article à une date précise, dans le futur ou le passé&nbsp;; cela vous permet d&rsquo;écrire à l&rsquo;avance des articles à publier, ou de les antidater."
+msgstr "<strong>Publier</strong> - Vous pouvez définir la manière dont votre article est publié dans le bloc &laquo;&nbsp;Publier&nbsp;&raquo;. Pour &laquo;&nbsp;État&nbsp;&raquo;, &laquo;&nbsp;Visibilité&nbsp;&raquo;, &laquo;&nbsp;Format&nbsp;&raquo; et &laquo;&nbsp;Publier (immédiatement)&nbsp;&raquo;, un clic sur le lien &laquo;&nbsp;Modifier&nbsp;&raquo; affichera plus d&rsquo;options. &laquo;&nbsp;Visibilité&nbsp;&raquo; inclut des options pour protéger l&rsquo;article avec un mot de passe ou faire en sorte qu&rsquo;il reste en tête de page indéfiniment. &laquo;&nbsp;Publier (immédiatement)&nbsp;&raquo; vous permet de programmer la publication de votre article à une date précise, dans le futur ou le passé&nbsp;; cela vous permet d&rsquo;écrire à l&rsquo;avance des articles à publier, ou de les antidater."
 
 #: wp-admin/edit-form-advanced.php:327
 msgid "<strong>Featured Image</strong> - This allows you to associate an image with your post without inserting it. This is usually useful only if your theme makes use of the featured image as a post thumbnail on the home page, a custom header, etc."
@@ -5166,7 +5166,7 @@ msgstr "Vous pouvez afficher une simple liste de titres, ou une liste avec des e
 
 #: wp-admin/edit.php:171
 msgid "You can hide/display columns based on your needs and decide how many posts to list per screen using the Screen Options tab."
-msgstr "Vous pouvez cacher/afficher les colonnes en fonction de vos besoins, et décider du nombre d&rsquo;articles à afficher par écran à l&rsquo;aide de l&rsquo;onglet &laquo;&nbsp;Options de l&rsquo;écran&nbsp;&raquo;&nbsp;."
+msgstr "Vous pouvez cacher/afficher les colonnes en fonction de vos besoins, et décider du nombre d&rsquo;articles à afficher par écran à l&rsquo;aide de l&rsquo;onglet &laquo;&nbsp;Options de l&rsquo;écran&nbsp;&raquo;&nbsp;;"
 
 #: wp-admin/edit.php:172
 msgid "You can filter the list of posts by post status using the text links in the upper left to show All, Published, Draft, or Trashed posts. The default view is to show all posts."
@@ -7311,7 +7311,7 @@ msgstr "Comparer les versions de &laquo;&nbsp;%1$s&nbsp;&raquo;"
 
 #: wp-admin/themes.php:345
 msgid "Tags:"
-msgstr "Mots-clefs&nbsp;:"
+msgstr "Mots-clés&nbsp;:"
 
 #: wp-admin/theme-editor.php:20
 msgid "Edit Themes"
